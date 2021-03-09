@@ -1,0 +1,84 @@
+---
+sidebar: docs_sidebar
+permalink: docs/rn_whatsnew.html
+summary: Learn what's new in this version of NetApp HCI.
+keywords: netapp, hci, element, new, whatsnew
+---
+
+= What's new in NetApp HCI
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ../media/
+:keywords: hci, cloud, onprem, documentation, help, element
+
+[.lead]
+NetApp periodically updates NetApp HCI to bring you new features, enhancements, and bug fixes. NetApp HCI 1.8P1 includes Element 12.2 for storage clusters.
+
+* The <<NetApp HCI 1.8P1>> section describes new features and updates in NetApp HCI version 1.8P1.
+
+* The <<Element 12.2>> section describes new features and updates in NetApp Element 12.2.
+
+== NetApp HCI 1.8P1
+NetApp HCI 1.8P1 includes security and stability improvements.
+
+=== NetApp HCI documentation enhancements
+You can now access NetApp HCI upgrading, expansion, monitoring, and concepts information in an easy-to-navigate format link:index.html[here^].
+
+=== NetApp Element Plug-in for vCenter Server 4.5 availability
+The NetApp Element Plug-in for vCenter Server 4.5 is available outside of the management node 12.2 and NetApp HCI 1.8P1 releases. To upgrade the plug-in, follow the instructions in the link:concept_hci_upgrade_overview.html[NetApp HCI Upgrades^] documentation.
+
+=== NetApp Hybrid Cloud Control enhancements
+NetApp Hybrid Cloud Control is enhanced for version 1.8P1. https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[Learn more^].
+
+== Element 12.2
+NetApp HCI 1.8P1 includes Element 12.2 for storage clusters. Element 12.2 introduces SolidFire Enterprise SDS, software encryption at rest, maintenance mode, enhanced volume access security, Fully Qualified Domain Name (FQDN) access to UIs, storage node firmware updates, and security updates.
+
+=== SolidFire Enterprise SDS
+Element 12.2 introduces SolidFire Enterprise SDS (eSDS). SolidFire eSDS provides the benefits of SolidFire scale out technology and NetApp Element software data services on the hardware of your choice that meets the reference configuration for SolidFire eSDS. http://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-sds-ig%2FGUID-F1BDD19F-AF33-4CDE-B67F-C5E17D4E6DE9.html[Learn more^].
+
+The following are new Element API methods related to SolidFire eSDS (http://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-sds-ug%2FGUID-4D335B61-6B68-4B81-AD6E-BCA1E7ABACD5.html[Element 12.2 API information for SolidFire eSDS] has more information):
+
+* `GetLicenseKey`
+* `SetLicenseKey`
+
+=== Software encryption at rest
+Element 12.2 introduces software encryption at rest, which you can enable when you create a storage cluster (and is enabled by default when you create a SolidFire Enterprise SDS storage cluster). This feature encrypts all data stored on the SSDs in the storage nodes and causes only a very small (~2%) performance impact on client IO.
+
+The following are Element API methods related to software encryption at rest (the http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/home.html[Element API Reference Guide^] has more information):
+
+* `CreateCluster`
+
+=== Maintenance mode
+Element 12.2 introduces maintenance mode, which enables you to take a storage node offline for maintenance such as software upgrades or host repairs, while preventing a full sync of all data. If one or more nodes need maintenance, you can minimize the I/O impact to the rest of the storage cluster by enabling maintenance mode for those nodes before you begin. You can use maintenance mode with both appliance nodes as well as SolidFire eSDS nodes.
+
+=== Enhanced volume access security
+You can now restrict volume access to certain initiators based on VLAN (virtual network) association. You can associate new or existing initiators with one or more virtual networks, restricting that initiator to iSCSI targets accessible via those virtual networks.
+
+The following are updated Element API methods related to these security improvements (the http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/home.html[Element API Reference Guide^] has more information):
+
+* `CreateInitiators`
+* `ModifyInitiators`
+* `AddAccount`
+* `ModifyAccount`
+
+=== Fully Qualified Domain Name (FQDN) access to UIs
+Element 12.2 supports cluster web interface access using FQDNs. On Element 12.2 storage clusters, if you use the FQDN to access web user interfaces such as the Element web UI, per-node UI, or management node UI, you must first add a storage cluster setting to identify the FQDN used by the cluster. This setting enables the cluster to properly redirect a login session and facilitates better integration with external services like key managers and identity providers for multi-factor authentication. This feature requires management services version 2.15 or later. link:task_nde_access_ui_fqdn.html[Learn more^].
+
+=== Storage node firmware updates
+Element 12.2 includes firmware updates for storage nodes. http://docs.netapp.com/us-en/hci/docs/rn_relatedrn.html[Learn more^].
+
+=== Security enhancements
+Element 12.2 resolves security vulnerabilities for storage nodes and the management node. http://security.netapp.com/[Learn more^] about these security enhancements.
+
+=== New SMART warning for failing drives
+Element 12.2 now performs periodic health checks on SolidFire appliance drives using SMART health data from the drives. A drive that fails the SMART health check might be close to failure. If a drive fails the SMART health check, a new critical severity cluster fault appears: `Drive with serial: <serial number> in slot: <node slot><drive slot> has failed the SMART overall health check. To resolve this fault, replace the drive`
+
+[discrete]
+== Find more information
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[NetApp Hybrid Cloud Control and Management Services Release Notes^]
+* https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
+* https://www.netapp.com/us/documentation/hci.aspx[NetApp HCI Resources page^]
+* http://docs.netapp.com/sfe-122/index.jsp[SolidFire and Element Software Documentation Center^]
+* https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software[Firmware and driver versions for NetApp HCI and NetApp Element software^]
