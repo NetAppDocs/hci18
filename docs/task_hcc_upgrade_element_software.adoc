@@ -20,7 +20,7 @@ To upgrade NetApp Element software, you can use the NetApp Hybrid Cloud Control 
 
 * *Admin privileges*: You have storage cluster administrator permissions to perform the upgrade.
 * *Valid upgrade path*: You have checked upgrade path information for the Element version you are upgrading to and verified that the upgrade path is valid.
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software[NetApp KB: Upgrade matrix for storage clusters running NetApp Element Software]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software%3F[NetApp KB: Upgrade matrix for storage clusters running NetApp Element Software (login required)]
 * *System time sync*: You have ensured that the system time on all nodes is synced and that NTP is correctly configured for the storage cluster and nodes. Each node must be configured with a DNS nameserver in the per-node web UI (`https://[IP address]:442`) with no unresolved cluster faults related to time skew.
 * *System ports*: If you are using NetApp Hybrid Cloud Control for upgrades, you have ensured that the necessary ports are open. See link:hci_prereqs_required_network_ports.html[Network ports] for more information.
 * *Management node*: For NetApp Hybrid Cloud Control UI and API, the management node in your environment is running version 11.3.
@@ -579,7 +579,7 @@ sfinstall -u admin 10.117.78.244 /tmp/solidfire-rtfi-11.3.0.345.iso --metadata=/
 +
 *Optional* You can add the `--stage` flag to the `sfinstall` command to pre-stage the upgrade in advance.
 
-IMPORTANT: If you are upgrading an H610S series node to Element 12.2 and the node is running a version of Element earlier than 11.8, you will need to perform additional upgrade steps (<<Upgrading H610S storage nodes to Element 12.2 (phase 2), phase 2>>) for each storage node. If you are running Element 11.8 or later, the additional upgrade steps (phase 2) are not required. 
+IMPORTANT: If you are upgrading an H610S series node to Element 12.2 and the node is running a version of Element earlier than 11.8, you will need to perform additional upgrade steps (<<Upgrading H610S storage nodes to Element 12.2 (phase 2), phase 2>>) for each storage node. If you are running Element 11.8 or later, the additional upgrade steps (phase 2) are not required.
 
 == What happens if an upgrade fails using HealthTools
 If the software upgrade fails, you can pause the upgrade.
