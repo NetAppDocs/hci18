@@ -394,6 +394,14 @@ homepage:
           url: /docs/concept_hcc_expandoverview.html
         - title: Upgrade NetApp HCI
           url: /docs/concept_hci_upgrade_overview.html
+    - title: Troubleshoot
+      links:
+        - title: Troubleshoot NetApp HCI and Rancher
+          url: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/NetApp_HCI_and_Rancher_troubleshooting
+        - title: Reset BMC on compute nodes
+          url: https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_reset_BMC_on_NetApp_HCI_compute_nodes
+        - title: More knowledgebase articles
+          url: https://kb.netapp.com/Special:Search?query=netapp+hci&type=wiki
     - title: Solutions
       links:
         - title: NetApp HCI Resources page
@@ -412,3 +420,7 @@ homepage:
           url: https://community.netapp.com/t5/forums/searchpage/tab/message?advanced=false&allow_punctuation=false&q=hci
         - title: Where to get help
           url: https://mysupport.netapp.com/site/products/all/details/netapp-hci/guideme-tab
+    - title: Earlier versions
+      links:
+        - title: NetApp HCI Documentation Center
+          url: https://docs.netapp.com/hci/index.jsp 
