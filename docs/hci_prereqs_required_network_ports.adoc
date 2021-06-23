@@ -133,7 +133,7 @@ All ports in the table are TCP unless stated otherwise.
 |Storage cluster reporting to Active IQ
 
 |Management node
-|Online software repository:
+a|Online software repository:
 
 * `https://repo.netapp.com/bintray/api/package`
 * `https://repo.netapp.com/downloads`
