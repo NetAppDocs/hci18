@@ -154,7 +154,7 @@ If all health checks are successful, the return is similar to the following exam
 "timestamp": "2020-03-06T00:03:16.321621Z"
 ----
 
-If the `message` return indicates that there were problems regarding cluster health, do the following:
+. If the `message` return indicates that there were problems regarding cluster health, do the following:
 .. Select *GET ​/health-checks​/{healthCheckId}/log*
 .. Select *Try it out*.
 .. Enter the health check ID in the parameter field.
