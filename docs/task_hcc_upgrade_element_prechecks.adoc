@@ -108,7 +108,7 @@ https://[management node IP]/storage/1/
 ... Close the authorization window.
 .. Select *POST /health-checks*.
 .. Select *Try it out*.
-.. Enter the storage cluster ID in the parameter field.
+.. In the parameter field, enter the storage cluster ID obtained in Step 1.
 +
 ----
 {
