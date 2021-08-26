@@ -20,7 +20,7 @@ You can disable, re-enable, or determine the status of the SSH capability on the
 * *Cluster administrator permissions*: You have permissions as administrator on the storage cluster.
 * *Element software*: Your cluster is running NetApp Element software 11.3 or later.
 * *Management node*: You have deployed a management node running version 11.3 or later.
-* *Management services updates*: You have updated your https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab[management services bundle] to version 2.17.
+* *Management services updates*: You have updated your https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab[management services bundle^] to version 2.17.
 
 .Options
 You can do any of the following tasks after you link:task_mnode_api_get_authorizationtouse.html[authenticate]:
