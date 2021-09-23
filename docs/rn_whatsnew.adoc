@@ -38,7 +38,7 @@ NetApp HCI 1.8P1 includes Element 12.2 for storage clusters. Element 12.2 introd
 === SolidFire Enterprise SDS
 Element 12.2 introduces SolidFire Enterprise SDS (eSDS). SolidFire eSDS provides the benefits of SolidFire scale out technology and NetApp Element software data services on the hardware of your choice that meets the reference configuration for SolidFire eSDS. http://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-sds-ig%2FGUID-F1BDD19F-AF33-4CDE-B67F-C5E17D4E6DE9.html[Learn more^].
 
-The following are new Element API methods related to SolidFire eSDS (http://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-sds-ug%2FGUID-4D335B61-6B68-4B81-AD6E-BCA1E7ABACD5.html[Element 12.2 API information for SolidFire eSDS] has more information):
+The following are new Element API methods related to SolidFire eSDS (http://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-sds-ug%2FGUID-4D335B61-6B68-4B81-AD6E-BCA1E7ABACD5.html[Element 12.2 API information for SolidFire eSDS^] has more information):
 
 * `GetLicenseKey`
 * `SetLicenseKey`
