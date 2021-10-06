@@ -60,6 +60,8 @@ Use the *Compute* pane to see your total NetApp H-series compute environment. Yo
 
 To see details, in the Compute panes, click *Show Details*.
 
+NOTE: Your vCenter instances only show in the Compute pane when at least one NetApp HCI compute node is associated with that instance. To list the vCenter instances linked in NetApp Hybrid Cloud Control, you can use the link:task_mnode_edit_vcenter_assets.html[APIs].
+
 == Monitor storage capacity
 Monitoring the storage capacity of your environment is critical. Using the Storage Capacity pane, you can determine your storage capacity efficiency gains with or without compression, deduplication, and thin provisioning features enabled.
 
