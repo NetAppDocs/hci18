@@ -23,7 +23,7 @@ Beginning with the Element 11.3 management node release, the management node des
 
 * You must upgrade to the latest management services bundle before upgrading your Element software.
 
-NOTE: For the latest management services release notes describing major services, new features, bug fixes, and workarounds for each service bundle, see https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[the management services release notes]
+NOTE: For the latest management services release notes describing major services, new features, bug fixes, and workarounds for each service bundle, see https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[the management services release notes^]
 
 .Update options
 
@@ -49,7 +49,7 @@ Management service bundles provide enhanced functionality and fixes to your inst
 * Your cluster version is running NetApp Element software 11.3 or later.
 * You have upgraded your management services to at least version 2.1.326. NetApp Hybrid Cloud Control upgrades are not available in earlier service bundles.
 
-NOTE: For a list of available services for each service bundle version, see the https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[Management Services Release Notes].
+NOTE: For a list of available services for each service bundle version, see the https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[Management Services Release Notes^].
 
 .Steps
 . Open a web browser and browse to the IP address of the management node: `https://<ManagementNodeIP>`
@@ -82,7 +82,7 @@ Users should ideally perform management services updates from NetApp Hybrid Clou
 * Your cluster version is running NetApp Element software 11.3 or later.
 * You have upgraded your management services to at least version 2.1.326. NetApp Hybrid Cloud Control upgrades are not available in earlier service bundles.
 
-NOTE: For a list of available services for each service bundle version, see the https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[Management Services Release Notes].
+NOTE: For a list of available services for each service bundle version, see the https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[Management Services Release Notes^].
 
 .Steps
 . Open the REST API UI on the management node: `https://[management node IP]/mnode`
@@ -120,7 +120,7 @@ Users should ideally perform management services updates from NetApp Hybrid Clou
 .. Change the RAM of the management node VM from 12GB to 24GB RAM.
 .. Power on the management node VM.
 * Your cluster version is running NetApp Element software 11.3 or later.
-* You have downloaded the service bundle update from the https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab[NetApp Support Site] to a device that can be used in the dark site.
+* You have downloaded the service bundle update from the https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab[NetApp Support Site^] to a device that can be used in the dark site.
 
 .Steps
 . Open the REST API UI on the management node: `https://[management node IP]/mnode`
