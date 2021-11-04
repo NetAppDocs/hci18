@@ -26,11 +26,11 @@ https://mysupport.netapp.com/site/tools/tool-eula/5ddb829ebd393e00015179b2[NetAp
 +
 After you agree to the End User License Agreement (EULA), the Download page appears. Microsoft Windows, Linux, and Mac binaries are available in the *Client Tool* pane.
 .  Run the executable.
-.  Select a language, and click *OK*.
-.  Click *Next*.
-. Read the EULA and click *I Agree*.
-. Click *Install*.
-. Ensure that *Run Active IQ Config Advisor* is selected, and click *Finish*.
+.  Select a language, and select *OK*.
+.  Select *Next*.
+. Read the EULA and select *I Agree*.
+. Select *Install*.
+. Ensure that *Run Active IQ Config Advisor* is selected, and select *Finish*.
 +
 After a short delay, the Active IQ Config Advisor UI opens in a new browser window or tab.
 
@@ -53,8 +53,8 @@ Config Advisor appears with the *Basic Settings* window in a web browser. Here, 
 +
 This ensures that only you are able to load this collection project after it is created.
 . Identify this collection report as yours by entering your name and email address in the *User Verification* section.
-. Click *Save*.
-. Click *Create a new data collection*.
+. Select *Save*.
+. Select *Create a new data collection*.
 . Select *Solution Based* in the *Collection Type* drop-down menu.
 . Select *NetApp HCI Pre Deployment* in the *Profile* drop-down menu.
 . For each type of device in the *Type* column, select the number of that type of device in your NetApp HCI network in the *Actions* drop-down menu.
@@ -74,8 +74,8 @@ NOTE: If you are using Mellanox switches and NetApp Professional Services is con
 . In the *Network Settings Check* section, enter the IP addresses and gateway IP address for the management network, followed by lists of servers for DNS, NTP, and vCenter Server (if you are deploying a new vCenter Server with NetApp HCI).
 +
 This section enables Active IQ Config Advisor to ensure that the management network is available for use, and also ensures that services such as DNS and NTP are working properly.
-. Click *Validate* to ensure all of the IP address information and credentials you have entered are valid.
-. Click *Save or Collect*.
+. Select *Validate* to ensure all of the IP address information and credentials you have entered are valid.
+. Select *Save or Collect*.
 +
 This starts the collection process, and you can see the progress as the collection runs along with a real-time log of the collection commands. The *Progress* column shows color-coded progress bars for each collection task.
 +
@@ -83,14 +83,14 @@ image::config_advisor_job_progress_bar.png[Active IQ Config Advisor job  progres
 +
 The progress bars use the following colors to show status:
 
-* *Green*: The collection has finished with no command failures. You can see the deployment risks and recommendations by clicking the *View & Analyze* icon in the *Actions* menu.
-* *Yellow*: The collection has finished with some command failures. You can see the deployment risks and recommendations by clicking the *View & Analyze* icon in the *Actions* menu.
+* *Green*: The collection has finished with no command failures. You can see the deployment risks and recommendations by selecting the *View & Analyze* icon in the *Actions* menu.
+* *Yellow*: The collection has finished with some command failures. You can see the deployment risks and recommendations by selecting the *View & Analyze* icon in the *Actions* menu.
 * *Red*: The collection has failed. You need to resolve the errors and run the collection again.
-. Optional: When the collection is complete, you can click the binocular icon for any collection row to see the commands that were run and the data that was collected.
+. Optional: When the collection is complete, you can select the binocular icon for any collection row to see the commands that were run and the data that was collected.
 . Select the *View & Analyze* tab.
 +
 This page shows a general health report of your environment. You can select a section of the pie chart to see more details about those specific checks or descriptions of problems, along with recommendations on resolving any issues that might interfere with successful deployment. You can resolve these issues yourself or request help from NetApp Professional Services.
-. Click *Export* to export the collection report as a PDF or Microsoft Word document.
+. Select *Export* to export the collection report as a PDF or Microsoft Word document.
 +
 NOTE: PDF and Microsoft Word document outputs include the switch configuration information for your deployment, which NetApp Professional Services uses to verify the network settings.
 

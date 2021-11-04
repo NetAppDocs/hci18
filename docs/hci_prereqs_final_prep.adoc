@@ -59,12 +59,12 @@ You have configured the IPMI IP address for each compute and storage node.
 .Steps
 . Open a web browser on a computer that can reach the IPMI network and browse to the IPMI IP address for the node.
 . Enter the user name `ADMIN` and password `ADMIN` in the login prompt.
-. Upon logging in, click the *Configuration* tab.
-. Click *Users*.
-. Select the `ADMIN` user and click *Modify User*.
+. Upon logging in, select the *Configuration* tab.
+. Select *Users*.
+. Select the `ADMIN` user and select *Modify User*.
 . Select the *Change Password* check box.
 . Enter a new password in the *Password* and *Confirm Password* fields.
-. Click *Modify*, and then click *OK*.
+. Select *Modify*, and then select *OK*.
 . Repeat this procedure for any other NetApp HCI H410C and H410S nodes with default IPMI passwords.
 
 == Change the default IPMI password for H610C, H615C, and H610S nodes
@@ -76,13 +76,13 @@ You have configured the IPMI IP address for each compute and storage node.
 .Steps
 . Open a web browser on a computer that can reach the IPMI network and browse to the IPMI IP address for the node.
 . Enter the user name `root` and password `calvin` in the login prompt.
-. Upon logging in, click the menu navigation icon at the top left of the page to open the sidebar drawer.
-. Click *Settings*.
-. Click *User Management*.
+. Upon logging in, select the menu navigation icon at the top left of the page to open the sidebar drawer.
+. Select *Settings*.
+. Select *User Management*.
 . Select the *Administrator* user from the list.
 . Enable the *Change Password* check box.
 . Enter a new, strong password in the *Password* and *Confirm Password* fields.
-. Click *Save* at the bottom of the page.
+. Select *Save* at the bottom of the page.
 . Repeat this procedure for any other NetApp HCI H610C, H615C, or H610S nodes with default IPMI passwords.
 
 [discrete]
