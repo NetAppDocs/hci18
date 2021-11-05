@@ -138,28 +138,28 @@ For details, see link:concept_nde_access_overview.html[_Accessing the NetApp Dep
 
 .	In the NDE, accept the prerequisites, check to use Active IQ, and accept license agreements.
 .	Optionally, enable Data Fabric File Services by ONTAP Select and accept the ONTAP Select license.
-.	Configure a new vCenter deployment. Click *Configure Using a Fully Qualified Domain Name* and enter both the vCenter Server Domain Name and DNS Server IP address.
+.	Configure a new vCenter deployment. Select *Configure Using a Fully Qualified Domain Name* and enter both the vCenter Server Domain Name and DNS Server IP address.
 +
 NOTE: It is strongly recommended to use the FQDN approach for vCenter installation.
 
 .	Review that the inventory assessment of all nodes completed successfully.
 +
 The storage node that is running the NDE is already checked.
-.	Select all nodes and click *Continue*.
+.	Select all nodes and select *Continue*.
 .	Configure network settings. Refer to the _NetApp HCI Installation Discovery Workbook_ for the values to use.
-. Click the blue box to launch the easy form.
+. Select the blue box to launch the easy form.
 +
 image::hci_nde_network_settings_ui.png[NDE Network Settings page]
 .	On the Network Settings Easy Form:
 ..	Type the Naming Prefix. (Refer to the System Details of the _NetApp HCI Installation Discovery Workbook_.)
-..	Click *No* for Will you assign VLAN IDs? (You assign them later in the main Network Settings page.)
+..	Select *No* for Will you assign VLAN IDs? (You assign them later in the main Network Settings page.)
 ..	Type the subnet CIDR, default gateway, and starting IP address for the management, vMotion, and iSCI networks according to your workbook. (Refer to the IP Assignment Method section of the _NetApp HCI Installation Discovery Workbook_ for these values.)
-..	Click *Apply to Network Settings*.
+..	Select *Apply to Network Settings*.
 .	Join an link:task_nde_join_existing_vsphere.html[existing vCenter] (optional).
 .	Record node serial numbers in the _NetApp HCI Installation Discovery Workbook_.
 .	Specify a VLAN ID for the vMotion Network and any network that requires VLAN tagging. See the _NetApp HCI Installation Discovery Workbook_.
 .	Download your configuration as a .CSV file.
-.	Click *Start Deployment*.
+.	Select *Start Deployment*.
 .	Copy and save the URL that appears.
 +
 NOTE: It can take about 45 minutes to complete the deployment.

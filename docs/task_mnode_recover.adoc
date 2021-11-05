@@ -53,7 +53,7 @@ You can deploy a new OVA and run a redeploy script to pull configuration data fr
 Element software: https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab
 NetApp HCI: https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab
 
-.. Click *Download Latest Release* and accept the EULA.
+.. Select *Download Latest Release* and accept the EULA.
 .. Select the management node image you want to download.
 . If you downloaded the OVA, follow these steps:
 .. Deploy the OVA.

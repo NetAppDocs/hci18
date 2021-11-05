@@ -87,7 +87,7 @@ IMPORTANT: You cannot remove the authoritative cluster from the inventory. To de
 . In the *Storage Clusters* pane, select *Storage Cluster Details*.
 . Select the *Actions* menu for the cluster and select *Remove Storage Cluster*.
 +
-CAUTION: Clicking *Yes* next removes the cluster from the installation.
+CAUTION: Selecting *Yes* next removes the cluster from the installation.
 
 . Select *Yes*.
 

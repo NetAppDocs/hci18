@@ -20,7 +20,7 @@ To obtain a token, you provide cluster admin credentials and a client ID. Each t
 
 Authorization functionality is set up for you during management node installation and deployment. The token service is based on the storage cluster you defined during setup.
 
-.Before you begin
+.What you'll need
 
 * Your cluster version should be running NetApp Element software 11.3 or later.
 * You should have deployed a management node running version 11.3 or later.
@@ -38,15 +38,15 @@ TOKEN=`curl -k -X POST https://MVIP/auth/connect/token -F client_id=mnode-client
 https://<managementNodeIP>/mnode/
 ----
 
-. Click *Authorize*.
+. Select *Authorize*.
 +
-NOTE: Alternately, you can click on a lock icon next to any service API.
+NOTE: Alternately, you can select the lock icon next to any service API.
 
 . Complete the following:
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client`.
 .. Do not enter a value for the client secret.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 . Close the *Available authorizations* dialog box.
 +
 NOTE: If you try to run a command after the token expires, a `401 Error: UNAUTHORIZED` message appears. If you see this, authorize again.

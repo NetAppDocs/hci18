@@ -16,7 +16,7 @@ keywords: netapp, hci, on premise, expand, compute, cluster
 [.lead]
 After you finish NetApp HCI deployment, you can expand and configure NetApp HCI compute resources by using NetApp Hybrid Cloud Control.
 
-.Before you begin
+.What you'll need
 * Ensure that the vSphere instance of NetApp HCI is using vSphere Enterprise Plus licensing if you are expanding a deployment with Virtual Distributed Switches.
 * Ensure that none of the vCenter or vSphere instances in use with NetApp HCI have expired licenses.
 * Ensure that you have free and unused IPv4 addresses on the same network segment as existing nodes (each new node must be installed on the same network as existing nodes of its type).
@@ -33,28 +33,28 @@ After you finish NetApp HCI deployment, you can expand and configure NetApp HCI 
 https://[management node IP address]
 ----
 . Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI storage cluster administrator credentials.
-. Click *Expand* at the top right corner of the interface.
+. Select *Expand* at the top right corner of the interface.
 +
 The browser opens the NetApp Deployment Engine.
 . Log in to the NetApp Deployment Engine by providing the NetApp HCI storage cluster administrator credentials.
-. On the *Welcome* page, click *Yes* and click *Continue*.
-. On the *End User License* page, read the VMware End User License Agreement and click *I accept* to accept the terms and click *Continue*.
+. On the *Welcome* page, select *Yes* and select *Continue*.
+. On the *End User License* page, read the VMware End User License Agreement and select *I accept* to accept the terms and select *Continue*.
 . On the *vCenter* page, complete the following steps:
 .. Enter a FQDN or IP address and administrator credentials for the vCenter instance associated with your NetApp HCI installation.
-.. Click *Continue*.
-.. Select a vSphere datacenter where you want to add the compute nodes, or click *Create New Datacenter* to add the compute nodes to a new datacenter.
+.. Select *Continue*.
+.. Select a vSphere datacenter where you want to add the compute nodes, or select *Create New Datacenter* to add the compute nodes to a new datacenter.
 +
-NOTE: If you click Create New Datacenter, the Cluster field is automatically populated.
+NOTE: If you select *Create New Datacenter*, the Cluster field is automatically populated.
 
 .. If you selected an existing datacenter, select a vSphere cluster with which the new compute nodes should be associated.
 +
 NOTE: If NetApp HCI cannot recognize the network settings of the cluster you have selected for expansion, ensure that the vmkernel and vmnic mapping for the management, storage and vMotion networks are set to the deployment defaults. See link:task_nde_supported_net_changes.html[supported networking changes] for more information.
 
-.. Click *Continue*.
+.. Select *Continue*.
 . On the *ESXi Credentials* page, enter an ESXi root password for the compute node or nodes you are adding.
 +
 You should use the same password that was created during the initial NetApp HCI deployment.
-. Click *Continue*.
+. Select *Continue*.
 . If you created a new vSphere datacenter cluster, on the *Network Topology* page, select a network topology to match the new compute nodes you are adding.
 +
 NOTE: You an select the two-cable option only if your compute nodes are using the two-cable topology and the existing NetApp HCI deployment is configured with VLAN IDs.
@@ -63,7 +63,7 @@ NOTE: You an select the two-cable option only if your compute nodes are using th
 +
 IMPORTANT: For some compute nodes, you might need to enable EV at the highest level that your vCenter version supports before you can add them to your installation. You need to use the vSphere client to enable EVC for these compute nodes. After you enable it, refresh the Inventory page and try adding the compute nodes again.
 
-. Click *Continue*.
+. Select *Continue*.
 . *Optional*: If you created a new vSphere datacenter cluster, on the *Network Settings* page, import network information from an existing NetApp HCI deployment by selecting the *Copy Setting from an Existing Cluster* checkbox.
 +
 This populates the default gateway and subnet information for each network.
@@ -73,14 +73,14 @@ This populates the default gateway and subnet information for each network.
 .. *vMotion IP Address*: Enter a vMotion IP address for the new compute node that is within the vMotion network subnet.
 .. *iSCSI A - IP Address*: Enter an IP address for the first iSCSI port of the compute node that is in the iSCSI network subnet.
 .. *iSCSI B - IP Address*: Enter an IP address for the second iSCSI port of the compute node that is in the iSCSI network subnet
-.. Click *Continue*.
+.. Select *Continue*.
 . On the *Review* page in the Network Settings section, new nodes are shown in the bold text. To make changes in any section, do the following:
-.. Click *Edit* for that section.
-.. After you finish, click *Continue* on any subsequent pages to return to the *Review* page.
+.. Select *Edit* for that section.
+.. After you finish, select *Continue* on any subsequent pages to return to the *Review* page.
 . *Optional*: If you do not want to send cluster statistics and support information to NetApp hosted SolidFire Active IQ servers, clear the final checkbox.
 +
 This disables real-time health and diagnostic monitoring for NetApp HCI. Disabling this feature removes the ability for NetApp to proactively support and monitor NetApp HCI to detect and resolve issues before production is impacted.
-. Click *Add Nodes*.
+. Select *Add Nodes*.
 +
 You can monitor the progress while NetApp HCI adds and configures the resources.
 . *Optional*: Verify that any new compute nodes are visible in the VMware vSphere Web Client.

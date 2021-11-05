@@ -54,7 +54,7 @@ https://[IP address]/mnode
 +
 image::mnode_swagger_ui.png[management node REST API UI]
 
-. Click *Authorize* or any lock icon and enter cluster admin credentials for permissions to use APIs.
+. Select *Authorize* or any lock icon and enter cluster admin credentials for permissions to use APIs.
 
 [discrete]
 == Find more Information

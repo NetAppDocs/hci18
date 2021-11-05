@@ -57,7 +57,7 @@ The NetApp Hybrid Cloud Control interface appears.
 
 === Deploy Rancher on NetApp HCI
 
-. From the Hybrid Cloud Control, click the *Rancher* icon in the lower left of the navigation bar.
+. From the Hybrid Cloud Control, select the *Rancher* icon in the lower left of the navigation bar.
 +
 image::rancher_hcc_dashboard.png[NetApp Hybrid Cloud Control Dashboard and Rancher icon]
 +
@@ -65,7 +65,7 @@ A popup window shows a message about getting started with Rancher.
 +
 image::rancher_hcc_getstarted.png[Rancher Getting Started image]
 
-. Click *Deploy Rancher*.
+. Select *Deploy Rancher*.
 +
 The Rancher UI appears.
 +
@@ -94,7 +94,7 @@ If no domain name is provided, wildcard DNS will be used instead and you will be
 . Review and select the checkbox for the Rancher End User License Agreement.
 . Review and select the checkbox to acknowledge information about Rancher software.
 
-. Click *Deploy*.
+. Select *Deploy*.
 +
 A bar indicates the deployment progress.
 +

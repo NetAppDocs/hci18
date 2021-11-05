@@ -26,12 +26,12 @@ To use LDAP for any user account, you must first enable LDAP.
 
 .Steps
 . Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
-. From the Dashboard, click on the top right Options icon and select *User Management*.
-. From the Users page, click *Configure LDAP*.
+. From the Dashboard, select on the top right Options icon and select *User Management*.
+. From the Users page, select *Configure LDAP*.
 . Define your LDAP configuration.
 . Select the authentication type of Search and Bind or Direct Bind.
-. Before you save the changes, click *Test LDAP Log In* at the top of the page, enter the user name and password of a user you know exists, and click *Test*.
-. Click *Save*.
+. Before you save the changes, select *Test LDAP Log In* at the top of the page, enter the user name and password of a user you know exists, and select *Test*.
+. Select *Save*.
 
 == Manage authoritative cluster accounts
 
@@ -44,7 +44,7 @@ This account can be used to log in to the Hybrid Cloud Control, the per-node UI 
 
 .Steps
 . Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
-. From the Dashboard, click on the top right Options icon and select *User Management*.
+. From the Dashboard, select the top right Options icon, then select *User Management*.
 . Select *Create User*.
 . Select the authentication type of cluster or LDAP.
 . Complete one of the following:
@@ -63,13 +63,13 @@ TIP: To use LDAP, you must first enable LDAP or LDAPS. See <<Enable LDAP>>.
 
 . Select either Administrator or Read-only permissions.
 +
-TIP: To view the permissions from NetApp Element software, click *Show legacy permissions*. If you select a subset of these permissions, the account is assigned Read-only permissions. If you select all legacy permissions, the account is assigned Administrator permissions.
+TIP: To view the permissions from NetApp Element software, select *Show legacy permissions*. If you select a subset of these permissions, the account is assigned Read-only permissions. If you select all legacy permissions, the account is assigned Administrator permissions.
 
 +
 TIP: To ensure that all children of a group inherit permissions, create a DN organization admin group in the LDAP server. All the children accounts of that group will inherit those permissions.
 
 . Check the box indicating that "I have read and accept the NetApp End User License Agreement."
-. Click *Create User*.
+. Select *Create User*.
 
 === Edit an authoritative cluster account
 You can change the permissions or password on a user account by using NetApp Hybrid Cloud Control.
@@ -78,7 +78,7 @@ You can change the permissions or password on a user account by using NetApp Hyb
 
 .Steps
 . Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
-. From the Dashboard, click on the icon in the top right and select *User Management*.
+. From the Dashboard, select on the icon in the top right and select *User Management*.
 . Optionally filter the list of user accounts by selecting *Cluster*, *LDAP*, or *Idp*.
 +
 If you configured users on the storage cluster with LDAP, those accounts show a User Type of "LDAP." If you configured users on the storage cluster with Idp, those accounts show a User Type of "Idp."
@@ -100,7 +100,7 @@ You cannot delete the primary administrator user account for the authoritative c
 
 .Steps
 . Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
-. From the Dashboard, click on the icon in the top right and select *User Management*.
+. From the Dashboard, select on the icon in the top right and select *User Management*.
 . In the *Actions* column in the Users table, expand the menu for the account and select *Delete*.
 . Confirm the deletion by selecting *Yes*.
 
