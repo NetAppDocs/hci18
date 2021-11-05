@@ -57,7 +57,7 @@ The NetApp Hybrid Cloud Control interface appears.
 
 === Deploy Rancher on NetApp HCI
 
-. From the Hybrid Cloud Control, click the *Rancher* icon in the lower left of the navigation bar.
+. From the Hybrid Cloud Control, select the *Rancher* icon in the lower left of the navigation bar.
 +
 image::rancher_hcc_dashboard.png[NetApp Hybrid Cloud Control Dashboard and Rancher icon]
 +
