@@ -145,7 +145,7 @@ NOTE: It is strongly recommended to use the FQDN approach for vCenter installati
 .	Review that the inventory assessment of all nodes completed successfully.
 +
 The storage node that is running the NDE is already checked.
-.	Select all nodes and click *Continue*.
+.	Select all nodes and select *Continue*.
 .	Configure network settings. Refer to the _NetApp HCI Installation Discovery Workbook_ for the values to use.
 . Click the blue box to launch the easy form.
 +

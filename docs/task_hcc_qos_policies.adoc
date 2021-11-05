@@ -113,7 +113,7 @@ You can change the name of an existing QoS policy or edit the values associated 
 +
 The updated QoS policy appears on the QoS Policies page.
 +
-TIP: You can click on the link in the *Active Volumes* column for a policy to show a filtered list of the volumes assigned to that policy.
+TIP: You can select the link in the *Active Volumes* column for a policy to show a filtered list of the volumes assigned to that policy.
 
 == Delete a QoS policy
 You can delete a QoS policy if it is no longer needed. When you delete a QoS policy, all volumes assigned with the policy maintain the QoS values previously defined by the policy but as individual volume QoS. Any association with the deleted QoS policy is removed.

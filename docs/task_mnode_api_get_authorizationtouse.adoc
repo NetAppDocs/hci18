@@ -40,7 +40,7 @@ https://<managementNodeIP>/mnode/
 
 . Click *Authorize*.
 +
-NOTE: Alternately, you can click on a lock icon next to any service API.
+NOTE: Alternately, you can select the lock icon next to any service API.
 
 . Complete the following:
 .. Enter the cluster user name and password.

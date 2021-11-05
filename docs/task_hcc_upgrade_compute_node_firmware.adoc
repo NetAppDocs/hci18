@@ -121,7 +121,7 @@ You will see the nodes in the cluster listed along with the current firmware ver
 . Select the upgrade package.
 . Click *Begin Upgrade*.
 +
-After you click *Begin Upgrade*, the window shows failed health checks, if any.
+After you select *Begin Upgrade*, the window shows failed health checks, if any.
 +
 CAUTION: The upgrade cannot be paused after you begin. Firmware will be updated sequentially in the following order: NIC, BIOS, and BMC. Do not log in to the BMC UI during upgrade. Logging into the BMC terminates the Hybrid Cloud Control Serial-Over-LAN (SOL) session that monitors upgrade process.
 
@@ -169,7 +169,7 @@ Here are the different states that the UI shows before, during, and after the up
 |All the health checks passed successfully, and the node is ready to be upgraded.
 
 |An error has occurred during the upgrade.
-|The upgrade fails with this notification when a critical error occurs. Download the logs by clicking the *Download Logs* link to help resolve the error. You can try upgrading again after you resolve the error.
+|The upgrade fails with this notification when a critical error occurs. Download the logs by selecting the *Download Logs* link to help resolve the error. You can try upgrading again after you resolve the error.
 
 |Node upgrade is in progress.
 |The upgrade is in progress. A progress bar shows the upgrade status.
@@ -205,12 +205,12 @@ https://[management node IP]/package-repository/1/
 ... Enter the client ID as `mnode-client`.
 ... Click *Authorize* to begin a session.
 ... Close the authorization window.
-.. From the REST API UI, click *GET ​/packages​/remote-repository​/connection*.
+.. From the REST API UI, select *GET ​/packages​/remote-repository​/connection*.
 .. Click *Try it out*.
 .. Click *Execute*.
 .. If code 200 is returned, go to the next step. If there is no connection to the remote repository, establish the connection or use the dark site option.
 . Find the upgrade package ID:
-.. From the REST API UI, click *GET /packages*.
+.. From the REST API UI, select *GET /packages*.
 .. Click *Try it out*.
 .. Click *Execute*.
 .. From the response, copy and save the upgrade package name (`"packageName"`) and package version (`"packageVersion"`) for use in a later step.
@@ -232,13 +232,13 @@ https://[management node IP]/package-repository/1/
 ... Enter the client ID as `mnode-client`.
 ... Click *Authorize* to begin a session.
 ... Close the authorization window.
-.. From the REST API UI, click *POST /packages*.
+.. From the REST API UI, select *POST /packages*.
 .. Click *Try it out*.
 .. Click *Browse* and select the upgrade package.
 .. Click *Execute* to initiate the upload.
 .. From the response, copy and save the package ID (`"id"`) for use in a later step.
 . Verify the status of the upload.
-.. From the REST API UI, click *GET​ /packages​/{id}​/status*.
+.. From the REST API UI, select *GET​ /packages​/{id}​/status*.
 .. Click *Try it out*.
 .. Enter the package ID you copied in the previous step in *id*.
 .. Click *Execute* to initiate the status request.
@@ -257,11 +257,11 @@ https://[management node IP]/inventory/1/
 ... Enter the client ID as `mnode-client`.
 ... Click *Authorize* to begin a session.
 ... Close the authorization window.
-.. From the REST API UI, click *GET /installations*.
+.. From the REST API UI, select *GET /installations*.
 .. Click *Try it out*.
 .. Click *Execute*.
 .. From the response, copy the installation asset ID (`"id"`).
-.. From the REST API UI, click *GET /installations/{id}*.
+.. From the REST API UI, select *GET /installations/{id}*.
 .. Click *Try it out*.
 .. Paste the installation asset ID into the *id* field.
 .. Click *Execute*.
@@ -347,7 +347,7 @@ CAUTION: The upgrade cannot be paused after you begin. Firmware will be updated 
 a|
 . Go to the specific KB article listed for each issue or perform the specified remedy.
 . If a KB is specified, complete the process described in the relevant KB article.
-. After you have resolved cluster issues, reauthenticate if needed and click *POST /nodes/{hardware_id}/upgrades*.
+. After you have resolved cluster issues, reauthenticate if needed and select *POST /nodes/{hardware_id}/upgrades*.
 . Repeat the steps as described previously in the upgrade step.
 
 |The upgrade fails and the mitigation steps are not listed in upgrade log.
@@ -370,7 +370,7 @@ https://[management node IP]/hardware/2/
 ... Enter the client ID as `mnode-client`.
 ... Click *Authorize* to begin a session.
 ... Close the authorization window.
-.. From the REST API UI, click *GET ​/nodes​/{hardware_id}​/upgrades*.
+.. From the REST API UI, select *GET ​/nodes​/{hardware_id}​/upgrades*.
 .. (Optional) Enter date and status parameters to filter the results.
 .. Enter the hardware host asset ID (`"hardwareId"` saved from a previous step) in the parameter field.
 .. Click *Try it out*.
@@ -383,7 +383,7 @@ You can insert a USB drive with the latest compute node firmware ISO downloaded 
 
 .Steps
 
-. Browse to the https://mysupport.netapp.com/site/downloads[NetApp software downloads^] page, click *NetApp HCI*, and click the download link for correct version of NetApp HCI.
+. Browse to the https://mysupport.netapp.com/site/downloads[NetApp software downloads^] page, select *NetApp HCI*, and select the download link for correct version of NetApp HCI.
 . Accept the End User License Agreement.
 . Under the *Compute and Storage Nodes* section, download the compute node image.
 . Use the Etcher utility to flash the compute node firmware ISO to a USB drive.
@@ -435,15 +435,15 @@ CAUTION: Ensure that all the VMs on the host are migrated before you proceed.
 +
 NOTE: You might have to install Java or update it.
 
-. When the console opens, click *Virtual Media > Virtual Storage*.
-. On the *Virtual Storage* screen, click *Logical Drive Type*, and select *ISO File*.
+. When the console opens, select *Virtual Media > Virtual Storage*.
+. On the *Virtual Storage* screen, select *Logical Drive Type*, and select *ISO File*.
 +
 image:BIOS_H410C_iso.png[Shows the navigation path to select the ISO file.]
 
 . Click *Open Image* to browse to the folder where you downloaded the ISO file, and select the ISO file.
 . Click *Plug In*.
-. When the connection status shows `Device#: VM Plug-in OK!!`, click *OK*.
-. Reboot the node by pressing *F12* and clicking *Restart* or clicking *Power Control > Set Power Reset*.
+. When the connection status shows `Device#: VM Plug-in OK!!`, select *OK*.
+. Reboot the node by pressing *F12* and selecting *Restart* or selecting *Power Control > Set Power Reset*.
 . During reboot, press *F11* to select the boot options and load the ISO. You might have to press F11 a few times before the boot menu is displayed.
 +
 You will see the following screen:
@@ -454,7 +454,7 @@ image:boot_option_iso_h410c.png[Shows the screen the virtual ISO boots up to.]
 +
 NOTE: NOTE: Some of the firmware upgrades might cause the console to disconnect and/or cause your session on the BMC to disconnect. You can log back into the BMC, however some services, such as the console, may not be available due to the firmware upgrades. After the upgrades have completed, the node will perform a cold reboot, which can take approximately five minutes.
 
-. Log back in to the BMC UI and click *System* to verify the BIOS version and build time after booting to the OS. If the upgrade completed correctly, you see the new BIOS and BMC versions.
+. Log back in to the BMC UI and select *System* to verify the BIOS version and build time after booting to the OS. If the upgrade completed correctly, you see the new BIOS and BMC versions.
 +
 NOTE: The BIOS version will not show the upgraded version until the node has finished fully booting.
 
@@ -480,7 +480,7 @@ CAUTION: Ensure that all the VMs on the host are migrated before you proceed.
 . Navigate to the BMC UI, `https://BMCIP/#login`, where BMC IP is the IP address of the BMC.
 . Log in using your credentials.
 . Click *Remote Control > Launch KVM (Java)*.
-. In the console window, click *Media > Virtual Media Wizard*.
+. In the console window, select *Media > Virtual Media Wizard*.
 +
 image::bmc_wizard.gif[Start the Virtual Media Wizard from the BMC UI.]
 . Click *Browse* and select the compute firmware `.iso` file.
@@ -488,16 +488,16 @@ image::bmc_wizard.gif[Start the Virtual Media Wizard from the BMC UI.]
 A popup indicating success is displayed, along with the path and device showing at the bottom. You can close the *Virtual Media* window.
 +
 image::virtual_med_popup.gif[Popup window showing ISO upload success.]
-. Reboot the node by pressing *F12* and clicking *Restart* or clicking *Power Control > Set Power Reset*.
+. Reboot the node by pressing *F12* and selecting *Restart* or selecting *Power Control > Set Power Reset*.
 . During reboot, press *F11* to select the boot options and load the ISO.
-. Select *AMI Virtual CDROM* from the list displayed and click *Enter*. If you do not see AMI Virtual CDROM in the list, go into the BIOS and enable it in the boot list. The node will reboot after you save. During the reboot, press *F11*.
+. Select *AMI Virtual CDROM* from the list displayed and select *Enter*. If you do not see AMI Virtual CDROM in the list, go into the BIOS and enable it in the boot list. The node will reboot after you save. During the reboot, press *F11*.
 +
 image::boot_device.gif[Shows the window where you can select the boot device.]
-. On the screen displayed, click *Enter*.
+. On the screen displayed, select *Enter*.
 +
 NOTE: Some of the firmware upgrades might cause the console to disconnect and/or cause your session on the BMC to disconnect. You can log back into the BMC, however some services, such as the console, might not be available due to the firmware upgrades. After the upgrades have completed, the node will perform a cold reboot, which can take approximately five minutes.
 
-. If you get disconnected from the console, select *Remote Control* and click *Launch KVM* or *Launch KVM (Java)* to reconnect and verify when the node has finished booting back up. You might need multiple reconnects to verify that the node booted successfully.
+. If you get disconnected from the console, select *Remote Control* and select *Launch KVM* or *Launch KVM (Java)* to reconnect and verify when the node has finished booting back up. You might need multiple reconnects to verify that the node booted successfully.
 +
 CAUTION: During the powering on process, for approximately five minutes, the KVM console displays *No Signal*.
 

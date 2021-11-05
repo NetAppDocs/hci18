@@ -35,7 +35,7 @@ https://[management node IP]/inventory/1/
 ... Enter the client ID as `mnode-client`.
 ... Click *Authorize* to begin a session.
 ... Close the window.
-.. From the REST API UI, click *GET ​/installations*.
+.. From the REST API UI, select *GET ​/installations*.
 .. Click *Try it out*.
 .. Click *Execute*.
 .. From the code 200 response body, copy the `id` for the installation.

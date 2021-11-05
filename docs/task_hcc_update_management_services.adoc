@@ -61,7 +61,7 @@ The Management Services tab shows the current and available versions of manageme
 +
 NOTE: If your installation cannot access the internet, only the current software version is shown.
 
-. If your installation can access the internet and if a management services upgrade is available, click *Begin Upgrade*.
+. If your installation can access the internet and if a management services upgrade is available, select *Begin Upgrade*.
 . If your installation cannot access the internet, do the following:
 .. Follow the instructions on the page to download and save a management services upgrade package to your computer.
 .. Click *Browse* to locate the package you saved and upload it.

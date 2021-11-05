@@ -337,7 +337,7 @@ https://[management node IP]/inventory/1/
 ... Enter the client ID as `mnode-client`.
 ... Click *Authorize* to begin a session.
 ... Close the window.
-.. From the REST API UI, click *GET ​/installations*.
+.. From the REST API UI, select *GET ​/installations*.
 .. Click *Try it out*.
 .. Click *Execute*.
 .. From the code 200 response body, copy the `id` for the installation.
@@ -346,7 +346,7 @@ Your installation has a base asset configuration that was created during install
 
 . If you have a NetApp HCI installation, locate the hardware tag for your compute node in vSphere:
 .. Select the host in the vSphere Web Client navigator.
-.. Click the *Monitor* tab, and click *Hardware Health*.
+.. Click the *Monitor* tab, and select *Hardware Health*.
 .. The node BIOS manufacturer and model number are listed. Copy and save the value for `tag` for use in a later step.
 . Add a vCenter controller asset for HCI monitoring (NetApp HCI installations only) and Hybrid Cloud Control (for all installations) to the management node known assets:
 .. Click *POST /assets/{asset_id}/controllers* to add a controller sub-asset.
@@ -377,7 +377,7 @@ https://<mNode 11.1 IP address>:9443
 ----
 . In vSphere, select *NetApp Element Configuration* > *mNode Settings*. (In older versions, the top-level menu is *NetApp SolidFire Configuration*.)
 . Click *Actions* > *Clear*.
-. To confirm, click *Yes*. The mNode Status field should report Not Configured.
+. To confirm, select *Yes*. The mNode Status field should report Not Configured.
 +
 NOTE: When you go to the *mNode Settings* tab for the first time, the mNode Status field might display as *Not Configured* instead of the expected *UP*; you might not be able to choose *Actions* > *Clear*. Refresh the browser. The mNode Status field will eventually display *UP*.
 
@@ -393,7 +393,7 @@ NOTE: The default password is `solidfire`. This password is required to set the 
 
 . Click the *vCenter Plug-in Registration* tab.
 . Select *Update Plug-in*.
-. Enter required values. When you are finished, click *UPDATE*.
+. Enter required values. When you are finished, select *UPDATE*.
 . Log in to vSphere and select *NetApp Element Configuration* > *mNode Settings*.
 . Click *Actions* > *Configure*.
 . Provide the management node IP address, management node user ID (the user name is `admin`), password that you set on the *QoSSIOC Service Management* tab of the registration utility, and vCenter user ID and password.
@@ -479,7 +479,7 @@ https://[management node IP]/mnode
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client` if the value is not already populated.
 .. Click *Authorize* to begin a session.
-. From the REST API UI, click *POST /services/reconfigure-auth*.
+. From the REST API UI, select *POST /services/reconfigure-auth*.
 . Click *Try it out*.
 . For the *load_images* parameter, select `true`.
 . Click *Execute*.

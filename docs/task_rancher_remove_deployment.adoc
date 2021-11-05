@@ -36,12 +36,12 @@ You can use NetApp Hybrid Cloud Control web UI to remove the three virtual machi
 https://<ManagementNodeIP>
 ----
 . Log in to NetApp Hybrid Cloud Control by providing the storage cluster administrator credentials.
-. From the Dashboard, click the menu on the upper right.
+. From the Dashboard, select the menu on the upper right.
 . Select *Configure*.
 +
 image::hcc_configure.png[Rancher Configuration page]
 
-. In the *Rancher Server Clusters* pane, click *Configure Rancher Server Clusters*.
+. In the *Rancher Server Clusters* pane, select *Configure Rancher Server Clusters*.
 . Select the *Actions* menu for the Rancher installation you need to remove.
 +
 CAUTION: Clicking *Delete* immediately removes the Rancher on NetApp HCI management cluster.

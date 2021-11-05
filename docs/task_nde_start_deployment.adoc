@@ -18,15 +18,15 @@ Before continuing with your NetApp HCI deployment, you need to read and understa
 
 .Steps
 
-. On the *Welcome to NetApp HCI* page, click *Get Started*.
+. On the *Welcome to NetApp HCI* page, select *Get Started*.
 . On the *Prerequisites* page, do the following:
-.. Ensure each prerequisite is met, and click each associated checkbox to confirm.
+.. Ensure each prerequisite is met, and select each associated checkbox to confirm.
 .. Click *Continue*.
 . On the *End User Licenses* page, do the following:
 .. Read the NetApp End User License Agreement
-.. If you accept the terms, click *I accept* at the bottom of the agreement text.
+.. If you accept the terms, select *I accept* at the bottom of the agreement text.
 .. Read the VMware End User License Agreement.
-.. If you accept the terms, click *I accept* at the bottom of the agreement text.
+.. If you accept the terms, select *I accept* at the bottom of the agreement text.
 .. Click *Continue*.
 
 [discrete]

@@ -41,11 +41,11 @@ NOTE: As an alternative, you can wait 15 minutes for the inventory to update in 
 ... Enter the client ID as `mnode-client`.
 ... Click *Authorize* to begin a session.
 ... Close the window.
-.. From the REST API UI, click *GET ​/installations*.
+.. From the REST API UI, select *GET ​/installations*.
 .. Click *Try it out*.
 .. Click *Execute*.
 .. From the response, copy the installation asset ID (`"id"`).
-.. From the REST API UI, click *GET /installations/{id}*.
+.. From the REST API UI, select *GET /installations/{id}*.
 .. Click *Try it out*.
 .. Set refresh to `True`.
 .. Paste the installation asset ID into the *id* field.

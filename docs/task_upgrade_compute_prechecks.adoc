@@ -50,11 +50,11 @@ https://<ManagementNodeIP>/hcc
 . Click *Upgrade* near the top right of the interface.
 . On the *Upgrades* page, select the *Compute firmware* tab.
 . Click the health check image:hcc_healthcheck_icon.png[icon] for the cluster you want to check for upgrade readiness.
-. On the *Compute Health Check* page, click *Run Health Check*.
+. On the *Compute Health Check* page, select *Run Health Check*.
 . If there are issues, the page provides a report. Do the following:
 .. Go to the specific KB article listed for each issue or perform the specified remedy.
 .. If a KB is specified, complete the process described in the relevant KB article.
-.. After you have resolved cluster issues, click *Re-Run Health Check*.
+.. After you have resolved cluster issues, select *Re-Run Health Check*.
 
 After the health check completes without errors, the compute nodes in the cluster are ready to upgrade. See  link:task_hcc_upgrade_compute_node_firmware.html[Update compute node firmware] to proceed.
 
@@ -74,11 +74,11 @@ https://[management node IP]/inventory/1/
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client` if the value is not already populated.
 ... Click *Authorize* to begin a session.
-.. From the REST API UI, click *GET ​/installations*.
+.. From the REST API UI, select *GET ​/installations*.
 .. Click *Try it out*.
 .. Click *Execute*.
 .. From the code 200 response body, copy the `"id"` for the installation you plan to use for health checks.
-.. From the REST API UI, click *GET ​/installations​/{id}*.
+.. From the REST API UI, select *GET ​/installations​/{id}*.
 .. Click *Try it out*.
 .. Enter the installation ID.
 .. Click *Execute*.

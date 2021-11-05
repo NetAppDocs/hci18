@@ -42,11 +42,11 @@ https://[management node IP address]
 . In the left navigation blue box, select the NetApp HCI installation.
 +
 The NetApp Hybrid Cloud Control Dashboard appears.
-. In the left navigation, click *Nodes*.
-. To view compute inventory information, click *Compute*.
+. In the left navigation, select *Nodes*.
+. To view compute inventory information, select *Compute*.
 +
 A list of your compute nodes appears. The *BMC Connection Status* column shows the result of BMC connection attempts for each compute node. If the connection attempt fails for a compute node, an error message is displayed in this column for that node.
-. To add or edit the stored BMC credentials for a compute node with BMC connection errors, click *Edit connection settings* in the error message text.
+. To add or edit the stored BMC credentials for a compute node with BMC connection errors, select *Edit connection settings* in the error message text.
 . In the dialog that appears, add the correct administrator user name and password for the BMC of this compute node.
 . Click *Save*.
 . Repeat steps 6 through 8 for any compute node that has missing or incorrect stored BMC credentials.
@@ -68,11 +68,11 @@ https://[management node IP]/inventory/1/
 ... Enter the client ID as `mnode-client`.
 ... Click *Authorize* to begin a session.
 ... Close the authorization window.
-.. From the REST API UI, click *GET /installations*.
+.. From the REST API UI, select *GET /installations*.
 .. Click *Try it out*.
 .. Click *Execute*.
 .. From the response, copy the installation asset ID (`id`).
-.. From the REST API UI, click *GET /installations/{id}*.
+.. From the REST API UI, select *GET /installations/{id}*.
 .. Click *Try it out*.
 .. Paste the installation asset ID into the *id* field.
 .. Click *Execute*.

@@ -38,7 +38,7 @@ You can access the log collection area from the NetApp Hybrid Cloud Control Dash
 https://[management node IP address]
 ----
 . Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
-. From the Dashboard, click the menu on the upper right.
+. From the Dashboard, select the menu on the upper right.
 . Select *Collect Logs*.
 +
 The *Collect Logs* page appears. If you have collected logs before, you can download the existing log package, or begin a new log collection.

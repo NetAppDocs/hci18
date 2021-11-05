@@ -42,17 +42,17 @@ image::hcc_volumes_overview_active.png[HCC Volumes page > Overview tab image]
 +
 image::hcc_volumes_icons.png[HCC Volumes page icons]
 
-.. Filter the results by clicking the *Filter* icon.
-.. Hide or show columns by clicking the *Hide/Show* icon.
-.. Refresh data by clicking the *Refresh* icon.
-.. Download a CSV file by clicking on the *Download* icon.
+.. Filter the results by selecting the *Filter* icon.
+.. Hide or show columns by selecting the *Hide/Show* icon.
+.. Refresh data by selecting the *Refresh* icon.
+.. Download a CSV file by selecting on the *Download* icon.
 
 . Monitor the Used capacity column. If Warning, Error, or Critical thresholds are reached, the color represents the used capacity status:
 .. Warning - Yellow
 .. Error - Orange
 .. Critical - Red
 
-. From the Volumes view, click the tabs to see additional details about the volumes:
+. From the Volumes view, select the tabs to see additional details about the volumes:
 .. *Access Groups*: You can see the volume access groups that are mapped from initiators to a collection of volumes for secured access.
 +
 See information about link:concept_hci_volume_access_groups.html[volume access groups].

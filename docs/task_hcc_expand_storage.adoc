@@ -37,27 +37,27 @@ TIP: When you are expanding storage resources, storage capacity should be split 
 https://[management node IP address]
 ----
 . Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI storage cluster administrator credentials.
-. Click *Expand* at the top right corner of the interface.
+. Select *Expand* at the top right corner of the interface.
 +
 The browser opens the NetApp Deployment Engine.
 . Log in to the NetApp Deployment Engine by providing the NetApp HCI storage cluster administrator credentials.
-. On the *Welcome* page, click *No* and click *Continue*.
-. On the *Available Inventory* page, select the storage nodes you want to add and click *Continue*.
+. On the *Welcome* page, select *No* and select *Continue*.
+. On the *Available Inventory* page, select the storage nodes you want to add and select *Continue*.
 . On the *Network Settings* page, some of the network information has been detected from the initial deployment. Each new storage node is listed by serial number, and you need to assign the new network information to it. For each new storage node, complete the following steps:
 .. *Hostname*: If NetApp HCI detected a naming prefix, copy it from the Detected Naming Prefix field, and insert it as the prefix for the new unique hostname you add in the Hostname field.
 .. *Management Address*: Enter a management IP address for the new storage node that is within the management network subnet.
 .. *Storage (iSCSI) IP Address*: Enter an iSCSI IP address for the new storage node that is within the iSCSI network subnet.
-.. Click *Continue*.
+.. Select *Continue*.
 +
 NOTE: NetApp HCI might take some time to validate the IP addresses you enter. The Continue button becomes available when IP address validation completes.
 
 . On the *Review* page in the Network Settings section, new nodes are shown in the bold text. To make changes in any section, do the following:
-.. Click *Edit* for that section.
-.. After you finish, click *Continue* on any subsequent pages to return to the Review page.
+.. Select *Edit* for that section.
+.. After you finish, select *Continue* on any subsequent pages to return to the Review page.
 . *Optional*: If you do not want to send cluster statistics and support information to NetApp hosted Active IQ servers, clear the final checkbox.
 +
 This disables real-time health and diagnostic monitoring for NetApp HCI. Disabling this feature removes the ability for NetApp to proactively support and monitor NetApp HCI to detect and resolve issues before production is impacted.
-. Click *Add Nodes*.
+. Select *Add Nodes*.
 +
 You can monitor the progress while NetApp HCI adds and configures the resources.
 . *Optional*: Verify that any new storage nodes are visible in the Element Plug-in for vCenter Server.
