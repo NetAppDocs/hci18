@@ -49,7 +49,7 @@ To download the compute node firmware package:
 
 . Go to https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[the NetApp HCI downloads page^].
 . Choose *Compute_Firmware_Bundle* from the drop down list.
-. Click *Go*.
+. Select *Go*.
 
 Visit link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-management-controller-bmc-user-interface-ui[Update compute node firmware^] for instructions on updating your compute node firmware.
 
@@ -83,7 +83,7 @@ The following are known issues in this release that might affect daily operation
 |Manually update the BIOS to version NA3.7 on the H410C node:
 1. Browse to the https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[NetApp HCI Downloads page^].
 2. Enter `H410C_BIOS_3.7` in the drop down list text field.
-3. Click *Go*.
+3. Select *Go*.
 Instructions for updating are available in PDF format on the download page.
 
 After you update the BIOS and BMC, update the H410C node firmware using the compute firmware 12.2.109 package.

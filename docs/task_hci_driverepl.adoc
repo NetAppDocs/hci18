@@ -50,10 +50,10 @@ You should follow these best practices for adding drives to the cluster and remo
 |Using the Element UI
 a|
 . From the  Element UI, Select *Cluster > Drives*.
-. Click *Failed* to view the list of failed drives.
+. Select *Failed* to view the list of failed drives.
 . Make a note of the slot number of the failed drive. You need this information to locate the failed drive in the chassis.
-. Click *Actions* for the drive you want to remove.
-. Click *Remove*.
+. Select *Actions* for the drive you want to remove.
+. Select *Remove*.
 
 You can now physically remove the drive from the chassis.
 

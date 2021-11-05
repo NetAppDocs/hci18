@@ -27,11 +27,11 @@ There are multiple ways to monitor Rancher server, management clusters, and othe
 Using the NetApp Hybrid Cloud Control, you can view the Rancher URL and Rancher server cluster status. You can also monitor the nodes in which Rancher is running.
 
 . Log in to NetApp Hybrid Cloud Control by providing Element storage cluster administrator credentials.
-. From the Dashboard, click on the top right Options icon and select *Configure*.
+. From the Dashboard, select the top right Options icon and select *Configure*.
 +
 image::hcc_configure.png[Rancher Configuration page]
 
-. To view nodes information, from the Hybrid Cloud Control Dashboard, expand the name of your storage cluster and click *Nodes*.
+. To view nodes information, from the Hybrid Cloud Control Dashboard, expand the name of your storage cluster and select *Nodes*.
 
 == Monitor Rancher using the Rancher UI
 

@@ -213,7 +213,7 @@ This populates the default gateway and subnet information for each network.
 . Select *Continue*.
 . On the Review page in the Network Settings section, the new node is shown in bold text. If you need to make changes to the information in any section, perform the following steps:
 .. Select *Edit* for that section.
-.. When finished making changes, click Continue on any subsequent pages to return to the Review page.
+.. When finished making changes, select Continue on any subsequent pages to return to the Review page.
 . Optional: If you do not want to send cluster statistics and support information to NetApp-hosted SolidFire Active IQ servers, clear the final checkbox.
 This disables real-time health and diagnostic monitoring for NetApp HCI. Disabling this feature removes the ability for NetApp to proactively support and monitor NetApp HCI to detect and resolve problems before production is affected.
 . Select *Add Nodes*.
@@ -339,7 +339,7 @@ It might take a few minutes for the node to get added to the cluster. After the 
 .. Select the node, and then select *Manage > Networking > Virtual switches*, and perform the following steps:
 ... Select *vSwitch0*.
 You should see only vSwitch0 listed in the table that is displayed.
-... In the graphic that is displayed, select *VM Network*, and click *X* to remove the VM Network port group.
+... In the graphic that is displayed, select *VM Network*, and select *X* to remove the VM Network port group.
 +
 image::h410c-esxi-1.gif[Shows the screen to remove the VM Network port group.]
 
@@ -365,7 +365,7 @@ vmnic0 and vmnic4 are now listed under Active adapters.
 vSwitch1 is displayed in the list of virtual switches.
 .. Select *vSwitch1*, and select the pencil icon to edit the settings as follows:
 ... Under Properties, set MTU to 9000, and select *OK*.
-In the graphic that is displayed, select *VM Network*, and click the pencil icon to edit the settings as follows:
+In the graphic that is displayed, select *VM Network*, and select the pencil icon to edit the settings as follows:
 .. Select *Security*, and make the following selections:
 +
 image::vswitch1.gif[Shows the security selections to make for the VM network.]
@@ -450,7 +450,7 @@ A message recommending a rescan of the storage adapter is displayed.
 +
 image::rescan.gif[Shows the rescan icon for the storage adapters.]
 ... Under Adapter Details, select *Network Port Binding*, and select *+*.
-... Select the check boxes for iSCSI-B and iSCSI-A, and click OK.
+... Select the check boxes for iSCSI-B and iSCSI-A, and select OK.
 A message recommending a rescan of the storage adapter is displayed.
 ... Select the rescan icon.
 After the rescan is complete, verify if the volumes in the cluster are visible on the new compute node (host).

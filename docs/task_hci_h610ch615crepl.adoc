@@ -55,7 +55,7 @@ You need the serial number to identify the chassis by matching the number that y
 . Right-click the failed node and select *Connection > Disconnect*.
 . Select *Yes* to confirm the action.
 . Right-click the failed node and select *Remove from Inventory*.
-. Click *Yes* to confirm the action.
+. Select *Yes* to confirm the action.
 
 == Replace the node
 After you remove the failed node from the cluster, you can remove the failed chassis, and install the replacement chassis.
@@ -108,7 +108,7 @@ The browser opens the NetApp Deployment Engine.
 . On the End User License page, perform the following actions:
 .. Read the VMware End User License Agreement.
 .. If you accept the terms, select *I accept* at the end of the agreement text.
-. Click Continue.
+. Select Continue.
 . On the vCenter page, perform the following steps:
 .. Enter a FQDN or IP address and administrator credentials for the vCenter instance associated with your NetApp HCI installation.
 .. Select *Continue*.

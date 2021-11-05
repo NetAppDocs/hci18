@@ -36,15 +36,15 @@ You can use NetApp Hybrid Cloud Control web UI to remove the three virtual machi
 https://<ManagementNodeIP>
 ----
 . Log in to NetApp Hybrid Cloud Control by providing the storage cluster administrator credentials.
-. From the Dashboard, click the menu on the upper right.
+. From the Dashboard, select the menu on the upper right.
 . Select *Configure*.
 +
 image::hcc_configure.png[Rancher Configuration page]
 
-. In the *Rancher Server Clusters* pane, click *Configure Rancher Server Clusters*.
+. In the *Rancher Server Clusters* pane, select *Configure Rancher Server Clusters*.
 . Select the *Actions* menu for the Rancher installation you need to remove.
 +
-CAUTION: Clicking *Delete* immediately removes the Rancher on NetApp HCI management cluster.
+CAUTION: Selecting *Delete* immediately removes the Rancher on NetApp HCI management cluster.
 
 . Select *Delete*.
 
@@ -59,18 +59,18 @@ You can use the NetApp Hybrid Cloud Control REST API to remove the three virtual
 ----
 https://[IP address]/k8sdeployer/api/
 ----
-. Click *Authorize* or any lock icon and enter cluster admin credentials for permissions to use APIs.
+. Select *Authorize* or any lock icon and enter cluster admin credentials for permissions to use APIs.
 .. Enter the cluster user name and password.
 .. Select *Request body* from the type drop-down list if the value is not already selected.
 .. Enter the client ID as `mnode-client` if the value is not already populated.
 .. Do not enter a value for the client secret.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 .. Close the window.
 . Close the *Available authorizations* dialog box.
-. Click *POST/destroy*.
-. Click *Try it out*.
+. Select *POST/destroy*.
+. Select *Try it out*.
 . In the request body text box, enter the Rancher server FQDN as the `serverURL` value.
-. Click *Execute*.
+. Select *Execute*.
 +
 After several minutes, the Rancher server virtual machines should no longer be visible in the Hosts and Clusters list in vSphere Client. After removal, you can use NetApp Hybrid Cloud Control to redeploy Rancher on NetApp HCI.
 

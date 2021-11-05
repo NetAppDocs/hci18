@@ -30,7 +30,7 @@ NOTE: You can make these changes as part of a custom node template to use for fu
 .. In the settings dialog, add a new network adapter.
 .. In the *New Network* drop down list, browse for a network and select *HCI_Internal_Storage_Data_Network*.
 .. Expand the network adapter section and record the MAC address for the new network adapter.
-.. Click *OK*.
+.. Select *OK*.
 . In Rancher, download the SSH private key file for each node in the user cluster.
 . Connect using SSH to a node in the user cluster, using the private key file that you have downloaded for that node:
 +
