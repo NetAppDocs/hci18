@@ -38,7 +38,7 @@ TOKEN=`curl -k -X POST https://MVIP/auth/connect/token -F client_id=mnode-client
 https://<managementNodeIP>/mnode/
 ----
 
-. Click *Authorize*.
+. Select *Authorize*.
 +
 NOTE: Alternately, you can select the lock icon next to any service API.
 
@@ -46,7 +46,7 @@ NOTE: Alternately, you can select the lock icon next to any service API.
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client`.
 .. Do not enter a value for the client secret.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 . Close the *Available authorizations* dialog box.
 +
 NOTE: If you try to run a command after the token expires, a `401 Error: UNAUTHORIZED` message appears. If you see this, authorize again.

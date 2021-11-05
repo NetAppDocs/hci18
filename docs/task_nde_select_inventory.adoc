@@ -25,10 +25,10 @@ If the system cannot detect any inventory, it displays an error. Correct the err
 If your system uses DHCP for IP address assignment, the storage and compute resources might not appear in the inventory immediately.
 . Optional: If a resource does not appear in the inventory immediately, or if you address an error and need to refresh the inventory, select *Refresh Inventory*. You might need to refresh the inventory multiple times.
 . Optional: To filter the inventory on node attributes, such as node type:
-.. Click *Filter* in the header of the *Compute Nodes* or *Storage Nodes* lists.
+.. Select *Filter* in the header of the *Compute Nodes* or *Storage Nodes* lists.
 ..  Choose criteria from the drop-down lists.
 ..  Below the drop-down lists, enter information to satisfy the criteria.
-..  Click *Add Filter*.
+..  Select *Add Filter*.
 ..  Clear individual filters by selecting *X* next to an active filter, or clear all filters by selecting *X* above the list of filters.
 .  Select all compute nodes that shipped with your system from the *Compute Nodes* list.
 +
@@ -39,7 +39,7 @@ You need to select at least two storage nodes to proceed with deployment.
 . Optional: If a storage node selection box is flagged, that storage node exceeds 33% of the total storage cluster capacity. Do of the following:
 * Clear the selection box for the flagged storage node.
 * Select additional storage nodes to more equally distribute the storage cluster capacity between nodes.
-. Click *Continue*.
+. Select *Continue*.
 
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]

@@ -25,7 +25,7 @@ You can modify and test the management node network, cluster, and system setting
 On the Network Settings tab of the per-node management node UI, you can modify the management node network interface fields.
 
 . Open the per-node management node UI.
-. Click the *Network Settings* tab.
+. Select the *Network Settings* tab.
 . View or enter the following information:
 .. *Method*: Choose one of the following methods to configure the interface:
 +
@@ -59,7 +59,7 @@ configured to use.
 On the Cluster Settings tab of the per-node UI for the management node, you can modify cluster interface fields when a node is in Available, Pending, PendingActive, and Active states.
 
 . Open the per-node management node UI.
-. Click the *Cluster Settings* tab.
+. Select the *Cluster Settings* tab.
 . View or enter the following information:
 +
 * *Role*: Role the management node has in the cluster. Possible value: `Management`.

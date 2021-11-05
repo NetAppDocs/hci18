@@ -60,7 +60,7 @@ NOTE: If there are more than 50 accounts, the list does not appear. Begin typing
 +
 Volumes that have a Max or Burst IOPS value greater than 20,000 IOPS might require high queue depth or multiple sessions to achieve this level of IOPS on a single volume.
 
-. Click *Create Volume*.
+. Select *Create Volume*.
 
 
 == Apply a QoS policy to a volume
@@ -175,13 +175,13 @@ NOTE: Increasing the volume size of a clone results in a new volume with additio
 +
 If an account does not exist, select *Create New Account*, enter a new account name, and select *Create*. The account is created and associated with the volume.
 
-.. Click *Clone Volumes*.
+.. Select *Clone Volumes*.
 
 * To clone multiple volumes, perform the following steps:
 .. In the *Clone Volumes* dialog box, enter an optional prefix for the volume clones in the *New Volume Name Prefix* field.
 .. Select a new type of access for the volume clones or copy the access type from the active volumes.
 .. Select a new account to associate with the volume clones or copy the account association from the active volumes.
-.. Click *Clone Volumes*.
+.. Select *Clone Volumes*.
 
 NOTE: The time to complete a cloning operation is affected by volume size and current cluster load. Refresh the page if the cloned volume does not appear in the volume list.
 

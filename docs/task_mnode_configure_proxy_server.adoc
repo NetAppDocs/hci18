@@ -33,14 +33,14 @@ The command to configure a proxy server updates and then returns the current pro
 https://[management node IP]/mnode
 ----
 
-. Click *Authorize* or any lock icon and complete the following:
+. Select *Authorize* or any lock icon and complete the following:
 +
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client`.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 .. Close the window.
-. Click *PUT /settings*.
-. Click *Try it out*.
+. Select *PUT /settings*.
+. Select *Try it out*.
 . To enable a proxy server, you must set `use_proxy` to true. Enter the IP or host name and proxy port destinations.
 +
 The proxy user name, proxy password, and SSH port are optional and should be omitted if not used.
@@ -55,7 +55,7 @@ The proxy user name, proxy password, and SSH port are optional and should be omi
 "proxy_ssh_port": [port value: default is 443]
 }
 ----
-. Click *Execute*.
+. Select *Execute*.
 
 NOTE: You might need to reboot your management node depending on your environment.
 

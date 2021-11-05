@@ -28,7 +28,7 @@ TIP: Verify that no cluster faults or errors are reported. You can find informat
 image::vcp-witnessnode.gif[Shows the NetApp Element Management > Clusters page with the nodes listed.]
 . Select the checkbox for the Witness Node that you want to delete, and select *Actions > Remove*.
 . Confirm the action in the prompt.
-. Click *Hosts and Clusters*.
+. Select *Hosts and Clusters*.
 . Navigate to the Witness Node VM that you removed earlier.
 . Right-click the VM and power it off.
 . Right-click the VM that you powered off, and select *Delete from Disk*.

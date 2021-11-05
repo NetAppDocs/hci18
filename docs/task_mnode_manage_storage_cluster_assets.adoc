@@ -38,15 +38,15 @@ You can use the REST API get the installation ID and the ID of the storage clust
 ----
 https://[management node IP]/inventory/1/
 ----
-. Click *Authorize* or any lock icon and complete the following:
+. Select *Authorize* or any lock icon and complete the following:
 +
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client`.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 .. Close the window.
-. Click *GET /installations*.
-. Click *Try it out*.
-. Click *Execute*.
+. Select *GET /installations*.
+. Select *Try it out*.
+. Select *Execute*.
 +
 The API returns a list of all known installations.
 . From the code 200 response body, save the value in the `id` field, which you can find in the list of installations. This is the installation ID. For example:
@@ -69,16 +69,16 @@ The API returns a list of all known installations.
 ----
 https://[management node IP]/storage/1/
 ----
-. Click *Authorize* or any lock icon and complete the following:
+. Select *Authorize* or any lock icon and complete the following:
 +
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client`.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 .. Close the window.
-. Click *GET /clusters*.
-. Click *Try it out*.
+. Select *GET /clusters*.
+. Select *Try it out*.
 . Enter the installation ID you saved earlier into the `installationId` parameter.
-. Click *Execute*.
+. Select *Execute*.
 +
 The API returns a list of all known storage clusters in this installation.
 . From the code 200 response body, find the correct storage cluster and save the value in the cluster's `storageId` field. This is the storage cluster ID.
@@ -98,13 +98,13 @@ NOTE: All users defined on the authoritative cluster are defined as users on all
 ----
 https://[management node IP]/storage/1/
 ----
-. Click *Authorize* or any lock icon and complete the following:
+. Select *Authorize* or any lock icon and complete the following:
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client`.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 .. Close the window.
-. Click *POST /clusters*.
-. Click *Try it out*.
+. Select *POST /clusters*.
+. Select *Try it out*.
 . Enter the new storage cluster's information in the following parameters in the *Request body* field:
 +
 ----
@@ -137,7 +137,7 @@ https://[management node IP]/storage/1/
 |The user ID used to communicate with the storage cluster (the user must have administrator privileges).
 
 |===
-. Click *Execute*.
+. Select *Execute*.
 +
 The API returns an object containing information about the newly added storage cluster asset, such as the name, version, and IP address information.
 
@@ -152,14 +152,14 @@ NOTE: Ensure you have followed the steps in <<Retrieve the installation ID and c
 ----
 https://[management node IP]/storage/1/
 ----
-. Click *Authorize* or any lock icon and complete the following:
+. Select *Authorize* or any lock icon and complete the following:
 +
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client`.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 .. Close the window.
-. Click *PUT /clusters/{storageId}*.
-. Click *Try it out*.
+. Select *PUT /clusters/{storageId}*.
+. Select *Try it out*.
 . Paste the storage cluster ID you copied earlier into the `storageId` parameter.
 . Change one or both of the following parameters in the *Request body* field:
 +
@@ -182,7 +182,7 @@ https://[management node IP]/storage/1/
 |string
 |The user ID used to communicate with the storage cluster (the user must have administrator privileges).
 |===
-. Click *Execute*.
+. Select *Execute*.
 
 == Delete a storage cluster asset
 You can delete a storage cluster asset if the storage cluster is no longer in service. When you remove a  storage cluster asset, it is automatically unregistered from the management node.
@@ -195,16 +195,16 @@ NOTE: Ensure you have followed the steps in <<Retrieve the installation ID and c
 ----
 https://[management node IP]/storage/1/
 ----
-. Click *Authorize* or any lock icon and complete the following:
+. Select *Authorize* or any lock icon and complete the following:
 +
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client`.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 .. Close the window.
-. Click *DELETE /clusters/{storageId}*.
-. Click *Try it out*.
+. Select *DELETE /clusters/{storageId}*.
+. Select *Try it out*.
 . Enter the storage cluster ID you copied earlier in the `storageId` parameter.
-. Click *Execute*.
+. Select *Execute*.
 +
 Upon success, the API returns an empty response.
 

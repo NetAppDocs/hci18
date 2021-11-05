@@ -19,8 +19,8 @@ You can use the per-node UI for the management node to create or delete cluster 
 .Steps
 
 . Open the per-node management node UI using the management node admin credentials.
-. Click *System Utilities*.
-. Click the button for the utility that you want to run:
+. Select *System Utilities*.
+. Select the button for the utility that you want to run:
 +
 .. *Control Power*: Reboots, power cycles, or shuts down the node. Specify any of the following options.
 +

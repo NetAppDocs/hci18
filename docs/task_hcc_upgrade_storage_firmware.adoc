@@ -61,7 +61,7 @@ TIP: The upgrade process takes approximately 30 minutes per node.
 https://<ManagementNodeIP>
 ----
 . Log in to NetApp Hybrid Cloud Control by providing the storage cluster administrator credentials.
-. Click *Upgrade* near the top right of the interface.
+. Select *Upgrade* near the top right of the interface.
 . On the *Upgrades* page, select *Storage*.
 +
 NOTE: The *Storage* tab lists the storage clusters that are part of your installation. If a cluster is inaccessible by NetApp Hybrid Cloud Control, it will not be displayed on the *Upgrades* page. If you have clusters running Element 12.0 or later, you will see the current firmware bundle version listed for these clusters. If the nodes in a single cluster have different firmware versions on them or as the upgrade progresses, you will see *Multiple* in the *Current Firmware Bundle Version* column. You can select *Multiple* to navigate to the *Nodes* page to compare firmware versions. If all your clusters are running Element versions earlier than 12.0, you will not see any information about firmware bundle version numbers. This information is also available on the *Nodes* page. See link:task_hcc_nodes.html[View your inventory].
@@ -76,9 +76,9 @@ If the cluster is up to date and/or no upgrade packages are available, the *Elem
 
 |Your management node has external connectivity.
 a|
-. Click the drop-down arrow next to the cluster you are upgrading.
-. Click *Firmware Only*, and select from the upgrade versions available.
-. Click *Begin Upgrade*.
+. Select the drop-down arrow next to the cluster you are upgrading.
+. Select *Firmware Only*, and select from the upgrade versions available.
+. Select *Begin Upgrade*.
 
 TIP: The *Upgrade Status* changes during the upgrade to reflect the status of the process. It also changes in response to actions you take, such as pausing the upgrade, or if the upgrade returns an error. See <<Upgrade status changes>>.
 
@@ -88,8 +88,8 @@ You can download logs after the upgrade is complete.
 
 |Your management node is within a dark site without external connectivity.
 a|
-. Click the drop-down arrow next to the cluster you are upgrading.
-. Click *Browse* to upload the upgrade package that you downloaded.
+. Select the drop-down arrow next to the cluster you are upgrading.
+. Select *Browse* to upload the upgrade package that you downloaded.
 . Wait for the upload to complete. A progress bar shows the status of the upload.
 
 CAUTION: The file upload will be lost if you navigate away from the browser window.
@@ -123,7 +123,7 @@ Here are the different states that the *Upgrade Status* column in the UI shows b
 |You can choose to pause the upgrade. Depending on the state of the upgrade process, the pause operation can succeed or fail. You will see a UI prompt asking you to confirm the pause operation. To ensure that the cluster is in a safe spot before pausing an upgrade, it can take up to two hours for the upgrade operation to be completely paused. To resume the upgrade, select *Resume*.
 
 |Paused
-|You paused the upgrade. Click *Resume* to resume the process.
+|You paused the upgrade. Select *Resume* to resume the process.
 
 |Error
 |An error has occurred during the upgrade. You can download the error log and send it to NetApp Support. After you resolve the error, you can return to the page, and select *Resume*.  When you resume the upgrade, the progress bar goes backwards for a few minutes while the system runs the health check and checks the current state of the upgrade.
@@ -161,19 +161,19 @@ a|
 ----
 https://[management node IP]/package-repository/1/
 ----
-.. Click *Authorize* and complete the following:
+.. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client`.
-... Click *Authorize* to begin a session.
+... Select *Authorize* to begin a session.
 ... Close the authorization window.
 .. From the REST API UI, select *GET ​/packages​/remote-repository​/connection*.
-.. Click *Try it out*.
-.. Click *Execute*.
+.. Select *Try it out*.
+.. Select *Execute*.
 .. If code 200 is returned, go to the next step. If there is no connection to the remote repository, establish the connection or use the dark site option.
 . Find the upgrade package ID:
 .. From the REST API UI, select *GET /packages*.
-.. Click *Try it out*.
-.. Click *Execute*.
+.. Select *Try it out*.
+.. Select *Execute*.
 .. From the response, copy and save the firmware package ID for use in a later step.
 
 |Your management node is within a dark site without external connectivity.
@@ -187,21 +187,21 @@ a|
 ----
 https://[management node IP]/package-repository/1/
 ----
-.. Click *Authorize* and complete the following:
+.. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client`.
-... Click *Authorize* to begin a session.
+... Select *Authorize* to begin a session.
 ... Close the authorization window.
 .. From the REST API UI, select *POST /packages*.
-.. Click *Try it out*.
-.. Click *Browse* and select the upgrade package.
-.. Click *Execute* to initiate the upload.
+.. Select *Try it out*.
+.. Select *Browse* and select the upgrade package.
+.. Select *Execute* to initiate the upload.
 .. From the response, copy and save the package ID (`"id"`) for use in a later step.
 . Verify the status of the upload.
 .. From the REST API UI, select *GET​ /packages​/{id}​/status*.
-.. Click *Try it out*.
+.. Select *Try it out*.
 .. Enter the firmware package ID you copied in the previous step in *id*.
-.. Click *Execute* to initiate the status request.
+.. Select *Execute* to initiate the status request.
 +
 The response indicates `state` as `SUCCESS` when complete.
 |===
@@ -211,14 +211,14 @@ The response indicates `state` as `SUCCESS` when complete.
 ----
 https://[management node IP]/inventory/1/
 ----
-.. Click *Authorize* and complete the following:
+.. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client`.
-... Click *Authorize* to begin a session.
+... Select *Authorize* to begin a session.
 ... Close the authorization window.
 .. From the REST API UI, select *GET /installations*.
-.. Click *Try it out*.
-.. Click *Execute*.
+.. Select *Try it out*.
+.. Select *Execute*.
 .. From the response, copy the installation asset ID (`id`).
 +
 [subs=+quotes]
@@ -234,9 +234,9 @@ https://[management node IP]/inventory/1/
 ----
 
 .. From the REST API UI, select *GET /installations/{id}*.
-.. Click *Try it out*.
+.. Select *Try it out*.
 .. Paste the installation asset ID into the *id* field.
-.. Click *Execute*.
+.. Select *Execute*.
 .. From the response, copy and save the storage cluster ID (`"id"`) of the cluster you intend to upgrade for use in a later step.
 +
 [subs=+quotes]
@@ -256,16 +256,16 @@ https://[management node IP]/inventory/1/
 ----
 https://[management node IP]/storage/1/
 ----
-.. Click *Authorize* and complete the following:
+.. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client`.
-... Click *Authorize* to begin a session.
+... Select *Authorize* to begin a session.
 ... Close the window.
-.. Click *POST /upgrades*.
-.. Click *Try it out*.
+.. Select *POST /upgrades*.
+.. Select *Try it out*.
 .. Enter the upgrade package ID in the parameter field.
 .. Enter the storage cluster ID in the parameter field.
-.. Click *Execute* to initiate the upgrade.
+.. Select *Execute* to initiate the upgrade.
 +
 The response should indicate state as `initializing`:
 +
@@ -320,10 +320,10 @@ The response should indicate state as `initializing`:
 ----
 .. Copy the upgrade ID (`"upgradeId"`) that is part of the response.
 . Verify the upgrade progress and results:
-.. Click *GET ​/upgrades/{upgradeId}*.
-.. Click *Try it out*.
+.. Select *GET ​/upgrades/{upgradeId}*.
+.. Select *Try it out*.
 .. Enter the upgrade ID from the previous step in *upgradeId*.
-.. Click *Execute*.
+.. Select *Execute*.
 .. Do one of the following if there are problems or special requirements during the upgrade:
 +
 [%header,cols=2*]
@@ -336,7 +336,7 @@ a|
 . Go to the specific KB article listed for each issue or perform the specified remedy.
 . If a KB is specified, complete the process described in the relevant KB article.
 . After you have resolved cluster issues, reauthenticate if needed and select *PUT ​/upgrades/{upgradeId}*.
-. Click *Try it out*.
+. Select *Try it out*.
 . Enter the upgrade ID from the previous step in *upgradeId*.
 . Enter `"action":"resume"` in the request body.
 +
@@ -345,12 +345,12 @@ a|
   "action": "resume"
 }
 ----
-. Click *Execute*.
+. Select *Execute*.
 
 |You need to pause the upgrade because the maintenance window is closing or for another reason.
 a|
 . Reauthenticate if needed and select *PUT ​/upgrades/{upgradeId}*.
-. Click *Try it out*.
+. Select *Try it out*.
 . Enter the upgrade ID from the previous step in *upgradeId*.
 . Enter `"action":"pause"` in the request body.
 +
@@ -359,7 +359,7 @@ a|
   "action": "pause"
 }
 ----
-. Click *Execute*.
+. Select *Execute*.
 |===
 .. Run the *GET ​/upgrades/{upgradeId}* API multiple times, as needed, until the process is complete.
 +

@@ -30,14 +30,14 @@ The Active IQ collector service forwards configuration data and Element software
 ----
 https://[management node IP]/inventory/1/
 ----
-.. Click *Authorize* and complete the following:
+.. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client`.
-... Click *Authorize* to begin a session.
+... Select *Authorize* to begin a session.
 ... Close the window.
 .. From the REST API UI, select *GET ​/installations*.
-.. Click *Try it out*.
-.. Click *Execute*.
+.. Select *Try it out*.
+.. Select *Execute*.
 .. From the code 200 response body, copy the `id` for the installation.
 +
 [subs=+quotes]
@@ -61,14 +61,14 @@ NOTE: Your installation has a base asset configuration that was created during i
 https://[management node IP]/mnode
 ----
 
-.. Click *Authorize* or any lock icon and complete the following:
+.. Select *Authorize* or any lock icon and complete the following:
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client`.
-... Click *Authorize* to begin a session.
+... Select *Authorize* to begin a session.
 ... Close the window.
 .. Configure the base asset:
-... Click *PUT /assets/{asset_id}*.
-... Click *Try it out*.
+... Select *PUT /assets/{asset_id}*.
+... Select *Try it out*.
 ... Enter the following in the JSON payload:
 +
 ----
@@ -78,7 +78,7 @@ https://[management node IP]/mnode
 }
 ----
 ... Enter the base ID from the previous step in *asset_ID*.
-... Click *Execute*.
+... Select *Execute*.
 +
 The Active IQ service is automatically restarted whenever assets are changed. Modifying assets results in a short delay before settings are applied.
 
@@ -86,8 +86,8 @@ The Active IQ service is automatically restarted whenever assets are changed. Mo
 +
 NOTE: A controller asset is required for NetApp HCI monitoring services.
 
-.. Click *POST /assets/{asset_id}/controllers* to add a controller sub-asset.
-.. Click *Try it out*.
+.. Select *POST /assets/{asset_id}/controllers* to add a controller sub-asset.
+.. Select *Try it out*.
 .. Enter the parent base asset ID you copied to your clipboard in the *asset_id* field.
 .. Enter the required payload values with `type` as `vCenter` and vCenter credentials.
 +
@@ -104,7 +104,7 @@ NOTE: A controller asset is required for NetApp HCI monitoring services.
 +
 NOTE: `ip` is the vCenter IP address.
 
-.. Click *Execute*.
+.. Select *Execute*.
 
 [discrete]
 == Find more information

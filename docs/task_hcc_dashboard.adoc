@@ -73,7 +73,7 @@ TIP: To view cluster health, also look at the SolidFire Active IQ Dashboard. See
 
 .Steps
 
-.	Click the *RAW* tab, to see the total physical storage space used and available in your cluster.
+.	Select the *RAW* tab, to see the total physical storage space used and available in your cluster.
 +
 Look at the vertical lines to determine whether your used capacity is less than the total or less than Warning, Error, or Critical thresholds. Hover over the lines to see details.
 +
@@ -81,7 +81,7 @@ NOTE: You can set the threshold for Warning, which defaults to 3% below the Erro
 +
 TIP: For details about the related cluster thresholds Element API, see https://docs.netapp.com/us-en/element-software/api/reference_element_api_getclusterfullthreshold.html[“getClusterFullThreshold”^] in the _Element API Guide_. To view details about block and metadata capacity, see https://docs.netapp.com/us-en/element-software/storage/concept_monitor_understand_cluster_fullness_levels.html[Understanding cluster fullness levels^] in the _Element User Guide_.
 
-.	Click the *EFFECTIVE* tab, to see information about total storage provisioned to connected hosts and to see efficiency ratings.
+.	Select the *EFFECTIVE* tab, to see information about total storage provisioned to connected hosts and to see efficiency ratings.
 
 .. Optionally, check *Include Thin Provisioning* to see thin provisioning efficiency rates  in the Effective Capacity bar chart.
 .. *Effective Capacity bar chart*: Look at the vertical lines to determine whether your used capacity is less than the total or less than Warning, Error, or Critical thresholds. Similar to the Raw tab, you can hover over the vertical lines to see details.

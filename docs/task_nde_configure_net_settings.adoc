@@ -52,7 +52,7 @@ If you are deploying using a two-node or three-node storage cluster, you can com
 |*NTP Server Address 2 (Optional)*
 |An optional IP address or fully qualified domain name of the secondary NTP server for this infrastructure.
 |===
-. Click *To save time, launch the easy form* to enter fewer network settings.
+. Select *To save time, launch the easy form* to enter fewer network settings.
 +
 The *Network Settings Easy Form* dialog box appears.
 
@@ -79,7 +79,7 @@ a|
 . In the *VLAN ID* column, enter a VLAN tag to use for each type of network traffic you want to assign to a VLAN.
 +
 Both compute vMotion traffic and iSCSI traffic must use an unshared VLAN ID.
-. Click *Next*.
+. Select *Next*.
 . In the *Subnet* column, enter subnet definitions in CIDR format for each type of network traffic in each network; for example, 192.168.1.0/24.
 . In the *Default Gateway* column, enter the IP address of the default gateway for each type of network traffic in each network.
 . In the *Starting IP* column, enter the first useable IP address for each network subnet in each network.
@@ -91,12 +91,12 @@ a|
 . In the *Default Gateway* column, enter the IP address of the default gateway for each type of network traffic in each network.
 . In the *Starting IP* column, enter the first useable IP address for each type of network traffic in each network.
 |===
-. Click *Apply to Network Settings*.
-.  Click *Yes* to confirm.
+. Select *Apply to Network Settings*.
+.  Select *Yes* to confirm.
 +
 This populates the *Network Settings* page with the settings you entered in the easy form. NetApp HCI validates the IP addresses you entered. You can disable this validation with the Disable Live Network Validation button.
 . Verify that the automatically populated data is correct.
-. Click *Continue*.
+. Select *Continue*.
 
 
 == Find more information

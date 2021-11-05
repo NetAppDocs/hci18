@@ -18,14 +18,14 @@ You can review the information you provided before beginning deployment. You can
 NOTE: During deployment, the management node installation process creates volumes with names beginning with `NetApp-HCI-` in the Element storage cluster, and a SolidFire account beginning with the name `tenant_`. Do not delete these volumes or accounts; doing so will cause a loss in management functionality.
 
 .Steps
-. Optional: Click the *Download* icon to download installation information in CSV format.
+. Optional: Select the *Download* icon to download installation information in CSV format.
 +
 You can save this file and refer to it later for configuration information.
 . Expand each section and review the information. To expand all sections at once, select *Expand All*.
 . Optional: To make changes to information in any displayed section:
-.. Click *Edit* in the corresponding section.
+.. Select *Edit* in the corresponding section.
 .. Make the necessary changes.
-.. Click *Continue* until you reach the *Review* page. Your previous settings are saved on each page.
+.. Select *Continue* until you reach the *Review* page. Your previous settings are saved on each page.
 .. Repeat steps 2 and 3 to make any other necessary changes.
 . If you do not want to send cluster statistics and support information to NetApp-hosted SolidFire Active IQ servers, clear the final checkbox.
 +

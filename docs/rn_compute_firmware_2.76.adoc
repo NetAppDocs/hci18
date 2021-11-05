@@ -112,7 +112,7 @@ To download the Compute Firmware Bundle:
 
 . Go to https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[the NetApp HCI downloads page^].
 . Choose *Compute_Firmware_Bundle* from the drop down list.
-. Click *Go*.
+. Select *Go*.
 
 Visit link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-management-controller-bmc-user-interface-ui[Update compute node firmware^] for instructions on updating your compute node firmware.
 
@@ -147,7 +147,7 @@ image::bol_list_bugs_found.png[Storage firmware bundle release notes, align="cen
 //
 // . Browse to the https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[NetApp HCI Downloads page^].
 // . Enter `H410C_BIOS_3.7` in the drop down list text field.
-// . Click *Go*.
+// . Select *Go*.
 // Instructions for updating are available in PDF format on the download page.
 //
 // After you update the BIOS and BMC, update the H410C node firmware using the compute firmware bundle 2.76 package.
