@@ -39,7 +39,7 @@ You can update your NetApp management services using NetApp Hybrid Cloud Control
 
 Management service bundles provide enhanced functionality and fixes to your installation outside of major releases.
 
-.Before you begin
+.What you'll need
 
 * You are running management node 11.3 or later.
 * If you are updating management services to version 2.16 or later and you are running a management node 11.3 to 11.8, you will need to increase your management node VM's RAM prior to updating management services:
@@ -72,7 +72,7 @@ After the upgrade begins, you can see the upgrade status on this page. During th
 
 Users should ideally perform management services updates from NetApp Hybrid Cloud Control. You can however manually update management services using the REST API UI from the management node.
 
-.Before you begin
+.What you'll need
 * You are running management node 11.3 or later.
 * If you are updating management services to version 2.16 or later and you are running a management node 11.3 to 11.8, you will need to increase your management node VM's RAM prior to updating management services:
 .. Power off the management node VM.
@@ -113,7 +113,7 @@ A successful update returns a result similar to the following example:
 
 Users should ideally perform management services updates from NetApp Hybrid Cloud Control. You can however manually upload, extract, and deploy a service bundle update for management services to the management node using the REST API. You can run each command from the REST API UI for the management node.
 
-.Before you begin
+.What you'll need
 * You have deployed a NetApp Element software management node 11.3 or later.
 * If you are updating management services to version 2.16 or later and you are running a management node 11.3 to 11.8, you will need to increase your management node VM's RAM prior to updating management services:
 .. Power off the management node VM.

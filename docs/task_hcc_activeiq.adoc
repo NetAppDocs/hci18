@@ -16,7 +16,7 @@ keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance
 [.lead]
 By using SolidFire Active IQ, you can monitor the events, performance, and capacity of your clusters. You can access SolidFire Active IQ from the NetApp Hybrid Cloud Control Dashboard.
 
-*Before you begin*
+*What you'll need*
 
 * You must have a NetApp Support account to take advantage of this service.
 * You must have authorization to use management node REST APIs.

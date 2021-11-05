@@ -16,7 +16,7 @@ keywords: netapp, hci, on premise, expand, storage, compute, cluster
 [.lead]
 After you finish NetApp HCI deployment, you can expand and configure NetApp HCI storage and compute resources at the same time by using NetApp Hybrid Cloud Control.
 
-.Before you begin
+.What you'll need
 * Ensure that the vSphere instance of NetApp HCI is using vSphere Enterprise Plus licensing if you are expanding a deployment with Virtual Distributed Switches.
 * Ensure that none of the vCenter or vSphere instances in use with NetApp HCI have expired licenses.
 * Ensure that you have the vCenter administrator account credentials ready.

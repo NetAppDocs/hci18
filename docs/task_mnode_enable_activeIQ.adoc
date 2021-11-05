@@ -18,7 +18,7 @@ You can enable Active IQ storage monitoring (for SolidFire all-flash storage and
 
 The Active IQ collector service forwards configuration data and Element software-based cluster performance metrics to NetApp Active IQ for historical reporting and near real-time performance monitoring. The NetApp HCI monitoring service enables forwarding of storage cluster faults to vCenter for alert notification.
 
-.Before you begin
+.What you'll need
 * Your storage cluster is running NetApp Element software 11.3 or later.
 * You have deployed a management node running version 11.3 or later.
 * You have internet access. The Active IQ collector service cannot be used from dark sites.

@@ -16,7 +16,7 @@ keywords: netapp, element, management node, mnode, network, nic, storage nic
 [.lead]
 If you are using an additional NIC for storage, you can SSH in to the management node or use the vCenter console and run a curl command to set up a tagged or untagged network interface.
 
-.Before you begin
+.What you'll need
 
 • You know your eth0 IP address.
 • Your cluster version is running NetApp Element software 11.3 or later.

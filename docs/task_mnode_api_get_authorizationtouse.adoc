@@ -20,7 +20,7 @@ To obtain a token, you provide cluster admin credentials and a client ID. Each t
 
 Authorization functionality is set up for you during management node installation and deployment. The token service is based on the storage cluster you defined during setup.
 
-.Before you begin
+.What you'll need
 
 * Your cluster version should be running NetApp Element software 11.3 or later.
 * You should have deployed a management node running version 11.3 or later.

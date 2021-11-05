@@ -28,7 +28,7 @@ After you have validated that your environment is ready to support NetApp HCI an
 == Manually assign the IPMI port IP address
 Dynamic Host Configuration Protocol (DHCP) is enabled by default for the IPMI port of each NetApp HCI node. If your IPMI network does not use DHCP, you can manually assign a static IPv4 address to the IPMI port.
 
-.Before you begin
+.What you'll need
 Ensure that you have a keyboard, video, and mouse (KVM) switch or monitor and keyboard you can use to access the BIOS of each node.
 
 .About this task
@@ -53,7 +53,7 @@ The IPMI port for this node is ready to use.
 == Change the default IPMI password for H410C and H410S nodes
 You should change the default password for the IPMI administrator account on each compute and storage node as soon as you configure the IPMI network port.
 
-.Before you begin
+.What you'll need
 You have configured the IPMI IP address for each compute and storage node.
 
 .Steps
@@ -70,7 +70,7 @@ You have configured the IPMI IP address for each compute and storage node.
 == Change the default IPMI password for H610C, H615C, and H610S nodes
 You should change the default password for the IPMI administrator account on each compute and storage node as soon as you configure the IPMI network port.
 
-.Before you begin
+.What you'll need
 You have configured the IPMI IP address for each compute and storage node.
 
 .Steps

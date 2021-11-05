@@ -16,7 +16,7 @@ keywords: netapp, hci, on premise, expand, storage, cluster
 [.lead]
 After you finish NetApp HCI deployment, you can expand and configure NetApp HCI storage resources by using NetApp Hybrid Cloud Control.
 
-.Before you begin
+.What you'll need
 * Ensure that you have free and unused IPv4 addresses on the same network segment as existing nodes (each new node must be installed on the same network as existing nodes of its type).
 * Ensure that you have one of the following types of SolidFire storage cluster accounts:
 ** The native administrator account that was created during initial deployment

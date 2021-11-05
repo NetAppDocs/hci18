@@ -610,7 +610,7 @@ Phase 2 involves completing steps to perform a complete node shutdown and power 
 
 IMPORTANT: After you complete phase 1, four of the five firmware updates are activated during the cold boot on each H610S node; however, the Complex Programmable Logic Device (CPLD) firmware requires a complete power disconnect and reconnect to fully install. The CPLD firmware update protects against NVDIMM failures and metadata drive eviction during future reboots or power cycles. This power reset is estimated to take approximately one hour per H610S node. It requires shutting down the node, removing power cables or disconnecting power via a smart PDU, waiting approximately 3 minutes, and reconnecting power.
 
-.Before you begin
+.What you'll need
 
 * You have completed phase 1 of the H610S upgrade process and have upgraded your storage nodes using one the standard Element storage upgrade procedures.
 
