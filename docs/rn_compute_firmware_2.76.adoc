@@ -1,4 +1,4 @@
----
+select---
 sidebar: sidebar
 permalink: docs/rn_compute_firmware_2.76.html
 summary: Get links to release notes for the firmware packages that you can download and apply to NetApp HCI nodes.
@@ -130,7 +130,7 @@ See the https://mysupport.netapp.com/site/bugs-online/product[Bugs Online tool^]
 +
 image::bol_dashboard.png[Storage firmware bundle release notes, align="center"]
 
-. In the keyword search field, type “Compute Firmware Bundle” and click *New Search*:
+. In the keyword search field, type “Compute Firmware Bundle” and select *New Search*:
 +
 image::compute_firmware_bundle_choice.png[Storage firmware bundle release notes, align="center"]
 
