@@ -18,11 +18,11 @@ You can view and respond quickly to alerts on the Hybrid Cloud Control Dashboard
 == Steps
 
 . Go to the https://fabric.netapp.io[NetApp Fabric Orchestrator^] Login page.
-. Enter your Cloud Central login credentials and click *Login*.
+. Enter your Cloud Central login credentials and select *Login*.
 +
 TIP: If you do not see any systems listed, make sure that the NetApp HCI administrator is added to your NetApp Cloud Central account.
 
-. If you do not have a Cloud Central account, on the Cloud Central Login page, click *Sign Up*.
+. If you do not have a Cloud Central account, on the Cloud Central Login page, select *Sign Up*.
 
 +
 Using Cloud Central, you can set up accounts either as individual accounts or as Federated accounts:

@@ -90,7 +90,7 @@ NOTE: For node OS, unattended upgrades for security patches are run on a daily b
 . Initiate the list upgrade versions request:
 +
 ----
-curl -X POST "https://<managementNodeIP>/k8sdeployer/1/upgrade/rancher-versions" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
+curl -X POST "https://<ManagementNodeIP>/k8sdeployer/1/upgrade/rancher-versions" -H "accept: application/json" -H "Authorization: Bearer ${TOKEN}"
 ----
 +
 NOTE: You can find the bearer `${TOKEN}` used by the API command when you link:task_mnode_api_get_authorizationtouse.html[authorize]. The bearer `${TOKEN}` is in the curl response.
@@ -116,7 +116,7 @@ curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: applicat
 . Open the management node REST API UI on the management node:
 +
 ----
-https://<managementNodeIP>/k8sdeployer/api/
+https://<ManagementNodeIP>/k8sdeployer/api/
 ----
 . Select *Authorize* and complete the following:
 .. Enter the cluster user name and password.
@@ -166,7 +166,7 @@ curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: applicat
 . Open the management node REST API UI on the management node:
 +
 ----
-https://<managementNodeIP>/k8sdeployer/api/
+https://<ManagementNodeIP>/k8sdeployer/api/
 ----
 . Select *Authorize* and complete the following:
 .. Enter the cluster user name and password.
@@ -219,7 +219,7 @@ curl -X GET "https://<mNodeIP>/k8sdeployer/1/task/<taskID>" -H "accept: applicat
 . Open the management node REST API UI on the management node:
 +
 ----
-https://<managementNodeIP>/k8sdeployer/api/
+https://<ManagementNodeIP>/k8sdeployer/api/
 ----
 . Select *Authorize* and complete the following:
 .. Enter the cluster user name and password.

@@ -36,19 +36,19 @@ You can edit the stored BMC credentials using the NetApp Hybrid Cloud Control Da
 . Open a web browser and browse to the IP address of the management node. For example:
 +
 ----
-https://[management node IP address]
+https://<ManagementNodeIP>
 ----
 . Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI storage cluster administrator credentials.
 . In the left navigation blue box, select the NetApp HCI installation.
 +
 The NetApp Hybrid Cloud Control Dashboard appears.
-. In the left navigation, click *Nodes*.
-. To view compute inventory information, click *Compute*.
+. In the left navigation, select *Nodes*.
+. To view compute inventory information, select *Compute*.
 +
 A list of your compute nodes appears. The *BMC Connection Status* column shows the result of BMC connection attempts for each compute node. If the connection attempt fails for a compute node, an error message is displayed in this column for that node.
-. To add or edit the stored BMC credentials for a compute node with BMC connection errors, click *Edit connection settings* in the error message text.
+. To add or edit the stored BMC credentials for a compute node with BMC connection errors, select *Edit connection settings* in the error message text.
 . In the dialog that appears, add the correct administrator user name and password for the BMC of this compute node.
-. Click *Save*.
+. Select *Save*.
 . Repeat steps 6 through 8 for any compute node that has missing or incorrect stored BMC credentials.
 
 NOTE: Updating BMC information refreshes the inventory and ensures that management node services are aware of all hardware parameters needed to complete the upgrade.
@@ -61,21 +61,21 @@ You can edit the stored BMC credentials using the NetApp Hybrid Cloud Control RE
 .. Open the inventory service REST API UI on the management node:
 +
 ----
-https://[management node IP]/inventory/1/
+https://<ManagementNodeIP>/inventory/1/
 ----
-.. Click *Authorize* and complete the following:
+.. Select *Authorize* and complete the following:
 ... Enter the cluster user name and password.
 ... Enter the client ID as `mnode-client`.
-... Click *Authorize* to begin a session.
+... Select *Authorize* to begin a session.
 ... Close the authorization window.
-.. From the REST API UI, click *GET /installations*.
-.. Click *Try it out*.
-.. Click *Execute*.
+.. From the REST API UI, select *GET /installations*.
+.. Select *Try it out*.
+.. Select *Execute*.
 .. From the response, copy the installation asset ID (`id`).
-.. From the REST API UI, click *GET /installations/{id}*.
-.. Click *Try it out*.
+.. From the REST API UI, select *GET /installations/{id}*.
+.. Select *Try it out*.
 .. Paste the installation asset ID into the *id* field.
-.. Click *Execute*.
+.. Select *Execute*.
 .. From the response, copy and save the node asset id (`id`), BMC IP address (`bmcAddress`), and node serial number (`chassisSerialNumber`) for use in a later step.
 +
 [subs=+quotes]
@@ -97,15 +97,15 @@ https://[management node IP]/inventory/1/
 . Open the hardware service REST API UI on the management node:
 +
 ----
-https://[management node IP]/hardware/2/
+https://<ManagementNodeIP>/hardware/2/
 ----
-. Click *Authorize* and complete the following:
+. Select *Authorize* and complete the following:
 .. Enter the cluster user name and password.
 .. Enter the client ID as `mnode-client` if the value is not already populated.
-.. Click *Authorize* to begin a session.
+.. Select *Authorize* to begin a session.
 .. Close the window.
-. Click *PUT /nodes/{hardware_id}*.
-. Click *Try it out*.
+. Select *PUT /nodes/{hardware_id}*.
+. Select *Try it out*.
 . Enter the node asset id that you saved earlier in the `hardware_id` parameter.
 . Enter the following information in the payload:
 +
@@ -139,7 +139,7 @@ Example payload:
   "serialNumber": "221111019323"
 }
 ----
-. Click *Execute* to update BMC credentials.
+. Select *Execute* to update BMC credentials.
 A successful result returns a response similar to the following:
 +
 ----

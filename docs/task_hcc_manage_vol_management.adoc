@@ -49,7 +49,7 @@ NOTE: The default volume size selection is in GB. You can create volumes using s
 . Select a block size for the volume.
 . From the Account list, select the account that should have access to the volume.
 +
-If an account does not exist, click *Create New Account*, enter a new account name, and click *Create*. The account is created and associated with the new volume.
+If an account does not exist, select *Create New Account*, enter a new account name, and select *Create*. The account is created and associated with the new volume.
 
 +
 NOTE: If there are more than 50 accounts, the list does not appear. Begin typing and the auto-complete feature displays values for you to choose.
@@ -60,7 +60,7 @@ NOTE: If there are more than 50 accounts, the list does not appear. Begin typing
 +
 Volumes that have a Max or Burst IOPS value greater than 20,000 IOPS might require high queue depth or multiple sessions to achieve this level of IOPS on a single volume.
 
-. Click *Create Volume*.
+. Select *Create Volume*.
 
 
 == Apply a QoS policy to a volume
@@ -121,7 +121,7 @@ NOTE: The default volume size selection is in GB. You can create volumes using s
 +
 Begin typing and the auto-complete function displays possible values for you to choose.
 +
-If an account does not exist, click *Create New Account*, enter a new account name, and click *Create*. The account is created and associated with the existing volume.
+If an account does not exist, select *Create New Account*, enter a new account name, and select *Create*. The account is created and associated with the existing volume.
 
 .. Change the Quality of Service by doing one of the following:
 ... Select an existing policy.
@@ -137,7 +137,7 @@ TIP: When you change IOPS values, you should increment in tens or hundreds. Inpu
 
 You can create a clone of a single storage volume or clone a group of volumes to make a point-in-time copy of the data. When you clone a volume, the system creates a snapshot of the volume and then creates a copy of the data referenced by the snapshot.
 
-.Before you begin
+.What you'll need
 * At least one cluster must be added and running.
 * At least one volume has been created.
 * A user account has been created.
@@ -154,7 +154,7 @@ NOTE: Cloned volumes do not inherit volume access group membership from the sour
 . Log in to NetApp Hybrid Cloud Control by providing the NetApp HCI or Element storage cluster administrator credentials.
 . From the Dashboard, expand the name of your storage cluster on the left navigation menu.
 . Select the *Volumes* > *Overview* tab.
-. Select each volume you want to clone and click the *Clone* button that appears.
+. Select each volume you want to clone and select the *Clone* button that appears.
 . Do one of the following:
 * To clone a single volume, perform the following steps:
 .. In the *Clone Volume* dialog box, enter a volume name for the volume clone.
@@ -173,15 +173,15 @@ NOTE: Increasing the volume size of a clone results in a new volume with additio
 
 .. Select an account to associate with the volume clone.
 +
-If an account does not exist, click *Create New Account*, enter a new account name, and click *Create*. The account is created and associated with the volume.
+If an account does not exist, select *Create New Account*, enter a new account name, and select *Create*. The account is created and associated with the volume.
 
-.. Click *Clone Volumes*.
+.. Select *Clone Volumes*.
 
 * To clone multiple volumes, perform the following steps:
 .. In the *Clone Volumes* dialog box, enter an optional prefix for the volume clones in the *New Volume Name Prefix* field.
 .. Select a new type of access for the volume clones or copy the access type from the active volumes.
 .. Select a new account to associate with the volume clones or copy the account association from the active volumes.
-.. Click *Clone Volumes*.
+.. Select *Clone Volumes*.
 
 NOTE: The time to complete a cloning operation is affected by volume size and current cluster load. Refresh the page if the cloned volume does not appear in the volume list.
 
@@ -203,7 +203,7 @@ IMPORTANT: Persistent volumes that are associated with management services are c
 . Select one or more volumes to delete.
 . Do one of the following:
 +
-* If you selected multiple volumes, click the *Delete* quick filter at the top of the table.
+* If you selected multiple volumes, select the *Delete* quick filter at the top of the table.
 * If you selected a single volume, in the *Actions* column of the Volumes table, expand the menu for the volume and select *Delete*.
 . Confirm the delete by selecting *Yes*.
 
@@ -232,7 +232,7 @@ After storage volumes are deleted, they remain available for approximately eight
 . Select one or more volumes to purge.
 . Do one of the following:
 +
-* If you selected multiple volumes, click the *Purge* quick filter at the top of the table.
+* If you selected multiple volumes, select the *Purge* quick filter at the top of the table.
 * If you selected a single volume, in the *Actions* column of the Volumes table, expand the menu for the volume and select *Purge*.
 . In the *Actions* column of the Volumes table, expand the menu for the volume and select *Purge*.
 . Confirm the process by selecting *Yes*.

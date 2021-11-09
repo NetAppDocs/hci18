@@ -25,7 +25,7 @@ You can power on compute resources for a NetApp HCI system after the scheduled o
 NetApp-HCI-Datastore-[01,02]
 ----
 . Assuming all storage is accessible, power on the vCSA and any other required virtual machines as follows:
-.. Select the virtual machines in the navigator, select all the virtual machines that you want to power on, and click the *Power on* button.
+.. Select the virtual machines in the navigator, select all the virtual machines that you want to power on, then select the *Power on* button.
 . After you power on the virtual machines, wait for approximately 5 minutes and then use a web browser to navigate to the IP address or FQDN of the vCSA applicance.
 +
 If you do not wait long enough, a message appears stating that the vSphere Client web server is initializing.

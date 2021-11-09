@@ -28,7 +28,7 @@ After you have validated that your environment is ready to support NetApp HCI an
 == Manually assign the IPMI port IP address
 Dynamic Host Configuration Protocol (DHCP) is enabled by default for the IPMI port of each NetApp HCI node. If your IPMI network does not use DHCP, you can manually assign a static IPv4 address to the IPMI port.
 
-.Before you begin
+.What you'll need
 Ensure that you have a keyboard, video, and mouse (KVM) switch or monitor and keyboard you can use to access the BIOS of each node.
 
 .About this task
@@ -53,36 +53,36 @@ The IPMI port for this node is ready to use.
 == Change the default IPMI password for H410C and H410S nodes
 You should change the default password for the IPMI administrator account on each compute and storage node as soon as you configure the IPMI network port.
 
-.Before you begin
+.What you'll need
 You have configured the IPMI IP address for each compute and storage node.
 
 .Steps
 . Open a web browser on a computer that can reach the IPMI network and browse to the IPMI IP address for the node.
 . Enter the user name `ADMIN` and password `ADMIN` in the login prompt.
-. Upon logging in, click the *Configuration* tab.
-. Click *Users*.
-. Select the `ADMIN` user and click *Modify User*.
+. Upon logging in, select the *Configuration* tab.
+. Select *Users*.
+. Select the `ADMIN` user and select *Modify User*.
 . Select the *Change Password* check box.
 . Enter a new password in the *Password* and *Confirm Password* fields.
-. Click *Modify*, and then click *OK*.
+. Select *Modify*, and then select *OK*.
 . Repeat this procedure for any other NetApp HCI H410C and H410S nodes with default IPMI passwords.
 
 == Change the default IPMI password for H610C, H615C, and H610S nodes
 You should change the default password for the IPMI administrator account on each compute and storage node as soon as you configure the IPMI network port.
 
-.Before you begin
+.What you'll need
 You have configured the IPMI IP address for each compute and storage node.
 
 .Steps
 . Open a web browser on a computer that can reach the IPMI network and browse to the IPMI IP address for the node.
 . Enter the user name `root` and password `calvin` in the login prompt.
-. Upon logging in, click the menu navigation icon at the top left of the page to open the sidebar drawer.
-. Click *Settings*.
-. Click *User Management*.
+. Upon logging in, select the menu navigation icon at the top left of the page to open the sidebar drawer.
+. Select *Settings*.
+. Select *User Management*.
 . Select the *Administrator* user from the list.
 . Enable the *Change Password* check box.
 . Enter a new, strong password in the *Password* and *Confirm Password* fields.
-. Click *Save* at the bottom of the page.
+. Select *Save* at the bottom of the page.
 . Repeat this procedure for any other NetApp HCI H610C, H615C, or H610S nodes with default IPMI passwords.
 
 [discrete]

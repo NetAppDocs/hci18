@@ -25,7 +25,7 @@ You can modify and test the management node network, cluster, and system setting
 On the Network Settings tab of the per-node management node UI, you can modify the management node network interface fields.
 
 . Open the per-node management node UI.
-. Click the *Network Settings* tab.
+. Select the *Network Settings* tab.
 . View or enter the following information:
 .. *Method*: Choose one of the following methods to configure the interface:
 +
@@ -59,7 +59,7 @@ configured to use.
 On the Cluster Settings tab of the per-node UI for the management node, you can modify cluster interface fields when a node is in Available, Pending, PendingActive, and Active states.
 
 . Open the per-node management node UI.
-. Click the *Cluster Settings* tab.
+. Select the *Cluster Settings* tab.
 . View or enter the following information:
 +
 * *Role*: Role the management node has in the cluster. Possible value: `Management`.
@@ -71,10 +71,10 @@ On the Cluster Settings tab of the per-node UI for the management node, you can 
 After you change management and network settings for the management node and commit the changes, you can run tests to validate the changes you made.
 
 . Open the per-node management node UI.
-. In the management node UI, click *System Tests*.
+. In the management node UI, select *System Tests*.
 . Complete any of the following:
-.. To verify that the network settings you configured are valid for the system, click *Test Network Config*.
-.. To test network connectivity to all nodes in the cluster on both 1G and 10G interfaces using ICMP packets, click *Test Ping*.
+.. To verify that the network settings you configured are valid for the system, select *Test Network Config*.
+.. To test network connectivity to all nodes in the cluster on both 1G and 10G interfaces using ICMP packets, select *Test Ping*.
 . View or enter the following:
 +
 * *Hosts*: Specify a comma-separated list of addresses or host names of devices to ping.
