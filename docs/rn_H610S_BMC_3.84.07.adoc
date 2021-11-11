@@ -68,6 +68,7 @@ There are no known issues in this release.
 Perform the following steps to upgrade the BMC firmware version on your H610S nodes. The procedure can take approximately 30 minutes to complete.
 
 .What you'll need
+
 * You have checked for alerts by clicking *Reporting* > *Alerts* in the NetApp Element software web UI to ensure that there are no errors.
 * You have downloaded the BMC update package. Download the BMC update package https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/H610S_BMC_3.84[here^].
 
@@ -78,8 +79,8 @@ NOTE: This update package includes the `rom.ima_enc` file and all files needed f
 
 .Steps
 . Log in to the BMC console using your web browser: `https://<BMC_IP>/#login`, where `<BMC_IP>` is the IP address of the BMC.
-. Click *Maintenance*.
-. Click *Preserve Configuration*.
+. Select *Maintenance*.
+. Select *Preserve Configuration*.
 . Do the following:
 .. Disable the *Check All* checkbox.
 .. Enable the *IPMI* checkbox.
@@ -89,18 +90,18 @@ NOTE: This update package includes the `rom.ima_enc` file and all files needed f
 ** The *IPMI* setting is used to preserve existing user accounts.
 ** The *Network* setting is used to preserve the DHCP assigned BMC IP address.
 ** The *Authentication* setting is used to preserve custom accounts configured for BMC login.
-. Click *Save*.
-. Click *Firmware Update*.
+. Select *Save*.
+. Select *Firmware Update*.
 . Disable the *Preserve all Configuration* checkbox.
 +
 NOTE: Ensure that you have disabled the *Preserve all Configuration* checkbox.
 
 +
 . On the computer you are using to perform the update, extract the contents of the BMC update package.
-. In the BMC web UI, under the *Select Firmware Image* section of the *Firmware Update* page, click *Choose File*.
+. In the BMC web UI, under the *Select Firmware Image* section of the *Firmware Update* page, select *Choose File*.
 . Browse to the `rom.ima_enc` file within the extracted package contents and select it.
-. Click *Start firmware update* and click *OK* when the prompt appears asking if you want to continue.
-. Click *OK* when a prompt appears indicating that a firmware reset is happening.
+. Select *Start firmware update* and select *OK* when the prompt appears asking if you want to continue.
+. Select *OK* when a prompt appears indicating that a firmware reset is happening.
 . After several minutes, use a new browser tab to log in to the BMC web UI.
 . On the BMC dashboard, go to *Device Information* > *More info*.
 . Confirm that the *Firmware Revision* is *3.84.07*.
