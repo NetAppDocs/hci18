@@ -58,7 +58,7 @@ NOTE: Only connected storage clusters with the FQDN set are listed in the *Fully
 
 . Ensure that the Element storage nodes and the management node have DNS configured correctly for the network environment so that FQDNs in the environment can be resolved. To set DNS, go to the per-node UI for storage nodes and to the management node, then select *Network Settings* > *Management Network*.
 .. Per-node UI for storage nodes: `https://<storage_node_management_IP>:442`
-.. Per-node UI for the management node: `https://<management_node_IP>:442`
+.. Per-node UI for the management node: `https://<ManagementNodeIP>:442`
 
 . Change the storage cluster settings using the Element API.
 .. Access the Element API and create the following cluster interface preference using the `CreateClusterInterfacePreference` API method, and insert the cluster MVIP FQDN for the preference value:
@@ -76,7 +76,7 @@ https://<Cluster_MVIP>/json-rpc/12.2?method=CreateClusterInterfacePreference&nam
 .. Access the REST API UI for the management node by entering the management node IP address followed by `/mnode/2/`. For example:
 +
 ----
-https://<management_node_IP>/mnode/2/
+https://<ManagementNodeIP>/mnode/2/
 ----
 .. Select *Authorize* or any lock icon and enter the Element cluster user name and password.
 .. Enter the client ID as `mnode-client`.
@@ -128,7 +128,7 @@ https://<Cluster_MVIP>/json-rpc/12.2?method=DeleteClusterInterfacePreference&nam
 .. Access the REST API UI for the management node by entering the management node IP address followed by `/mnode/2/`. For example:
 +
 ----
-https://<management_node_IP>/mnode/2/
+https://<ManagementNodeIP>/mnode/2/
 ----
 .. Select *Authorize* or any lock icon and enter the Element cluster user name and password.
 .. Enter the client ID as `mnode-client`.
