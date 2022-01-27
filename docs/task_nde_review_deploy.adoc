@@ -47,7 +47,11 @@ After deployment is complete, the compute nodes might reboot more than once befo
 .After you finish
 Begin using NetApp HCI by selecting *Launch vSphere*.
 
-NOTE: For NetApp HCI installations using vSphere 6.7, this link launches the HTML5 vSphere web interface. For installations using vSphere 6.5, this link launches the Adobe Flash vSphere web interface.
+[NOTE]
+====
+* For NetApp HCI installations using vSphere 6.7, this link launches the HTML5 vSphere web interface. For installations using vSphere 6.5, this link launches the Adobe Flash vSphere web interface.
+* In two storage or three storage node configurations, the NDE configures the Witness Nodes to use the local datastore on the compute nodes. As a result, your vSphere Client displays two *Datastore usage on disk* warnings. To continue, select the *Reset To Green* link in each warning.
+====
 
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
