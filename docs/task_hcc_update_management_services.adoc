@@ -17,7 +17,7 @@ keywords: netapp, hci, on premise, cluster, management services
 
 You can update your management services to the latest bundle version after you have installed management node 11.3 or later.
 
-Beginning with the Element 11.3 management node release, the management node design has been changed based on a new modular architecture that provides individual services. These modular services provide central and extended management functionality for NetApp HCI and SolidFire all-flash storage systems. Management services include system telemetry, logging, and update services, the QoSSIOC service for Element Plug-in for vCenter Server, NetApp Hybrid Cloud Control (HCC), and more.
+Beginning with the Element 11.3 management node release, the management node design has been changed based on a new modular architecture that provides individual services. These modular services provide central and extended management functionality for NetApp HCI and SolidFire all-flash storage systems. Management services include system telemetry, logging, and update services, the QoSSIOC service for Element Plug-in for vCenter Server, NetApp Hybrid Cloud Control, and more.
 
 .About this task
 
@@ -27,7 +27,7 @@ NOTE: For the latest management services release notes describing major services
 
 .Update options
 
-You can update management services using the NetApp Hybrid Cloud Control (HCC) UI or the management node REST API:
+You can update management services using the NetApp Hybrid Cloud Control UI or the management node REST API:
 
 * <<Update management services using Hybrid Cloud Control>> (Recommended method)
 * <<Update management services using the management node API>>
@@ -35,7 +35,7 @@ You can update management services using the NetApp Hybrid Cloud Control (HCC) U
 
 == Update management services using Hybrid Cloud Control
 
-You can update your NetApp management services using NetApp Hybrid Cloud Control (HCC).
+You can update your NetApp management services using NetApp Hybrid Cloud Control.
 
 Management service bundles provide enhanced functionality and fixes to your installation outside of major releases.
 
