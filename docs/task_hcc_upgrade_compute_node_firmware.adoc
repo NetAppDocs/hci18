@@ -217,7 +217,7 @@ https://<ManagementNodeIP>/package-repository/1/
 
 |Your management node is within a dark site without external connectivity.
 a|
-. Go to the NetApp HCI software https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/Compute_Firmware_Bundle[download page^] and download the latest compute node firmware image to a device that is accessible to the management node.
+. Go to the NetApp HCI software https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/Compute_Firmware_Bundle[downloads page^] and download the latest compute node firmware image to a device that is accessible to the management node.
 +
 TIP: For dark site upgrades, you can reduce upload time if the upgrade package and the management node are both local.
 

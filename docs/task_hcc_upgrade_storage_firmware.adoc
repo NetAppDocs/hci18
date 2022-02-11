@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: docs/task_hcc_upgrade_storage_firmware.html
-summary: As part of a NetApp HCI or SolidFire system upgrade, you upgrade the firmware associated with your storage nodes.
+summary: As part of a NetApp HCI system upgrade, you upgrade the firmware associated with your storage nodes.
 keywords: netapp, element, hcc, firmware, storage firmware
 ---
 
@@ -176,9 +176,7 @@ https://<ManagementNodeIP>/package-repository/1/
 
 |Your management node is within a dark site without external connectivity.
 a|
-. Download the storage firmware upgrade package to a device that is accessible to the management node:
-* For NetApp HCI systems, go to the NetApp HCI software https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[download page^] and download the latest storage firmware image.
-* For SolidFire storage systems, go to the Element software https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[download page^] and download the latest storage firmware image.
+. Download the latest storage firmware upgrade package to a device that is accessible to the management node; go to the https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab/download/62654/Storage_Firmware_Bundle[Element software storage firmware bundle page^] and download the latest storage firmware image.
 . Upload the storage firmware upgrade package to the management node:
 .. Open the management node REST API UI on the management node:
 +
