@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: docs/task_hcc_upgrade_element_software.html
-summary: As part of a NetApp HCI, you upgrade NetApp Element software.
+summary: As part of a NetApp HCI system upgrade, you upgrade NetApp Element software.
 keywords: netapp, hci, HealthTools, cluster, element, H610S upgrade, hcc
 ---
 
