@@ -87,6 +87,7 @@ NOTE: Upgrading the NIC, BIOS, and BMC can take approximately 60 minutes per nod
 NOTE: Using the NetApp Hybrid Cloud Control UI to upgrade compute firmware on H300E/H500E/H700E compute nodes is no longer supported. To upgrade, it is recommended that you use a <<manual_method_USB,USB drive>> or the <<manual_method_BMC, BMC UI>> to mount the compute firmware ISO.
 
 .What you'll need
+
 * If your management node is not connected to the internet, you have downloaded the compute node firmware package from the https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/Compute_Firmware_Bundle[NetApp Support Site^].
 +
 NOTE: You should extract the `TAR.GZ` file to a `TAR` file, and then extract the `TAR` file to the ISO.
