@@ -34,6 +34,7 @@ With Rancher on NetApp HCI, you can:
 * Perform orchestration of hybrid cloud Kubernetes-based applications.
 
 == Technical Support option
+
 Using Rancher on NetApp HCI and Kubernetes open-source software includes free deployment and usage. License keys are not required.
 
 You can choose a NetApp Rancher Support option to obtain core-based, Rancher enterprise support.
