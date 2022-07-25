@@ -6,7 +6,6 @@ keywords: netapp, element, management node, mnode, disaster recovery, redeploy, 
 ---
 
 = Recover a management node
-
 :hardbreaks:
 :nofooter:
 :icons: font

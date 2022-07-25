@@ -32,7 +32,7 @@ Alarms in the VMware vSphere Web Client alert you when a host fails. You must ma
 
 .Steps
 
-. Physically remove the faulty node from the rack. The steps depend on the type of storage node you have. See link:task_hci_h410srepl.html[Replace H410S nodes^] and link:task_hci_h610srepl.html[Replace H610S nodes^].
+. Physically remove the faulty node from the rack. The steps depend on the type of storage node you have. See link:task_hci_h410srepl.html[Replace H410S nodes] and link:task_hci_h610srepl.html[Replace H610S nodes].
 +
 NOTE: Do not remove the node from the cluster at this point.
 

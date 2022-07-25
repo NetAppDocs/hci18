@@ -36,9 +36,10 @@ image::h410s_ssd_bays.png[Shows the bays associated with each node in a four-nod
 .Steps overview
 
 Here is a high-level overview of the steps in this procedure:
-<<Prepare to replace the storage node>>
-<<Replace the storage node in the chassis>>
-<<Add the storage node to the cluster>>
+
+* <<Prepare to replace the storage node>>
+* <<Replace the storage node in the chassis>>
+* <<Add the storage node to the cluster>>
 
 == Prepare to replace the storage node
 You should remove the faulty storage node correctly from the cluster before you install the replacement node. You can do this without causing any service interruption. You should obtain the serial number of the failed storage node from the Element UI and match it with the serial number on the sticker at the back of the node.

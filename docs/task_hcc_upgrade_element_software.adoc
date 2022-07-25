@@ -29,7 +29,7 @@ https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_S
 IMPORTANT: You must upgrade to the latest management services bundle before upgrading your Element software to version 12. If you are updating your Element software to version 12.2, you need management services 2.14.60 or later to proceed.
 
 * *Cluster health*: You have verified that the cluster is ready to be upgraded. See link:task_hcc_upgrade_element_prechecks.html[Run Element storage health checks prior to upgrading storage].
-* *Updated BMC for H610S nodes*: You have upgraded the BMC version for your H610S nodes. See the link:rn_H610S_BMC_3.84.07.html[release notes and upgrade instructions^].
+* *Updated BMC for H610S nodes*: You have upgraded the BMC version for your H610S nodes. See the link:rn_H610S_BMC_3.84.07.html[release notes and upgrade instructions].
 * *End User License Agreement (EULA)*: Beginning with management services 2.20, you must accept and save the EULA before using the NetApp Hybrid Cloud Control UI or API to upgrade Element software:
 +
 . Open the IP address of the management node in a web browser:
@@ -545,7 +545,7 @@ You can use the HealthTools suite of tools to update NetApp Element software at 
 +
 NOTE: You need the latest version of HealthTools to upgrade Element storage software.
 
-. Download this https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740[JSON file^] (https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740) from the NetApp Support Site on a computer that is not the management node and rename it to `metadata.json`.
+. Download this https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740[JSON file^] from the NetApp Support Site on a computer that is not the management node and rename it to `metadata.json`.
 . Copy the ISO file to the management node in an accessible location like `/tmp`.
 +
 TIP: You can do this by using, for example, SCP. When you upload the ISO file, make sure that the name of the file does not change, otherwise later steps will fail.
