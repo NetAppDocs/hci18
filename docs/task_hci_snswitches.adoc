@@ -51,12 +51,13 @@ You should perform the steps in this procedure in the order below. This is to en
 NOTE: Contact NetApp Support if you need guidance.
 
 Here is an overview of the steps in the procedure:
-<<Prepare to replace the faulty switch>>
-<<Create the configuration file>>
-<<Remove the faulty switch and install the replacement>>
-<<Verify the operating system version on the switch>>
-<<Configure the replacement switch>>
-<<Complete the replacement>>
+
+* <<Prepare to replace the faulty switch>>
+* <<Create the configuration file>>
+* <<Remove the faulty switch and install the replacement>>
+* <<Verify the operating system version on the switch>>
+* <<Configure the replacement switch>>
+* <<Complete the replacement>>
 
 == Prepare to replace the faulty switch
 Perform the following steps before you replace the faulty switch.
