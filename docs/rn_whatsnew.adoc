@@ -67,7 +67,7 @@ The following are updated Element API methods related to these security improvem
 Element 12.2 supports cluster web interface access using FQDNs. On Element 12.2 storage clusters, if you use the FQDN to access web user interfaces such as the Element web UI, per-node UI, or management node UI, you must first add a storage cluster setting to identify the FQDN used by the cluster. This setting enables the cluster to properly redirect a login session and facilitates better integration with external services like key managers and identity providers for multi-factor authentication. This feature requires management services version 2.15 or later. link:task_nde_access_ui_fqdn.html[Learn more].
 
 === Storage node firmware updates
-Element 12.2 includes firmware updates for storage nodes. http://docs.netapp.com/us-en/hci/docs/rn_relatedrn.html[Learn more^].
+Element 12.2 includes firmware updates for storage nodes. link:rn_relatedrn.html[Learn more].
 
 === Security enhancements
 Element 12.2 resolves security vulnerabilities for storage nodes and the management node. http://security.netapp.com/[Learn more^] about these security enhancements.
