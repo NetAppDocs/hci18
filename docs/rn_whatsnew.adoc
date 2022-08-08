@@ -27,7 +27,7 @@ NetApp HCI 1.8P1 includes security and stability improvements.
 You can now access NetApp HCI upgrading, expansion, monitoring, and concepts information in an easy-to-navigate format link:index.html[here^].
 
 === NetApp Element Plug-in for vCenter Server 4.5 availability
-The NetApp Element Plug-in for vCenter Server 4.5 is available outside of the management node 12.2 and NetApp HCI 1.8P1 releases. To upgrade the plug-in, follow the instructions in the link:concept_hci_upgrade_overview.html[NetApp HCI Upgrades^] documentation.
+The NetApp Element Plug-in for vCenter Server 4.5 is available outside of the management node 12.2 and NetApp HCI 1.8P1 releases. To upgrade the plug-in, follow the instructions in the link:concept_hci_upgrade_overview.html[NetApp HCI Upgrades] documentation.
 
 === NetApp Hybrid Cloud Control enhancements
 NetApp Hybrid Cloud Control is enhanced for version 1.8P1. https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes[Learn more^].
@@ -64,7 +64,7 @@ The following are updated Element API methods related to these security improvem
 * `ModifyAccount`
 
 === Fully Qualified Domain Name (FQDN) access to UIs
-Element 12.2 supports cluster web interface access using FQDNs. On Element 12.2 storage clusters, if you use the FQDN to access web user interfaces such as the Element web UI, per-node UI, or management node UI, you must first add a storage cluster setting to identify the FQDN used by the cluster. This setting enables the cluster to properly redirect a login session and facilitates better integration with external services like key managers and identity providers for multi-factor authentication. This feature requires management services version 2.15 or later. link:task_nde_access_ui_fqdn.html[Learn more^].
+Element 12.2 supports cluster web interface access using FQDNs. On Element 12.2 storage clusters, if you use the FQDN to access web user interfaces such as the Element web UI, per-node UI, or management node UI, you must first add a storage cluster setting to identify the FQDN used by the cluster. This setting enables the cluster to properly redirect a login session and facilitates better integration with external services like key managers and identity providers for multi-factor authentication. This feature requires management services version 2.15 or later. link:task_nde_access_ui_fqdn.html[Learn more].
 
 === Storage node firmware updates
 Element 12.2 includes firmware updates for storage nodes. http://docs.netapp.com/us-en/hci/docs/rn_relatedrn.html[Learn more^].

@@ -6,7 +6,6 @@ keywords: netapp, hci, vSphere components, upgrade, vCenter, ESXi
 ---
 
 = Upgrade your vSphere components for a NetApp HCI system with the Element Plug-in for vCenter Server
-
 :hardbreaks:
 :nofooter:
 :icons: font

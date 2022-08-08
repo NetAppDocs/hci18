@@ -6,7 +6,6 @@ keywords: netapp, hci, api, REST, remove, Rancher, redeploy
 ---
 
 = Remove a Rancher installation on NetApp HCI
-
 :hardbreaks:
 :nofooter:
 :icons: font
