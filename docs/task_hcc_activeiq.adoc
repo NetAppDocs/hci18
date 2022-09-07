@@ -42,7 +42,9 @@ https://<ManagementNodeIP>
 . Select *View Active IQ*.
 +
 The link:https://activeiq.solidfire.com[SolidFire Active IQ Dashboard^] appears.
-. To learn about SolidFire Active IQ, from the Dashboard, select the menu icon on the upper right and select *Documentation*.
+. To learn about SolidFire Active IQ, see the https://docs.netapp.com/us-en/solidfire-active-iq/index.html[SolidFire Active IQ Documentation^].
++
+You can also access the SolidFire Active IQ documentation from the dashboard by selecting the menu icon on the upper right and selecting *Documentation*.
 . From the SolidFire Active IQ interface, verify that the NetApp HCI compute and storage nodes are reporting telemetry correctly to Active IQ:
 .. If you have more than one NetApp HCI installation, select *Select a Cluster* and choose the cluster from the list.
 .. In the left navigation pane, select *Nodes*.
