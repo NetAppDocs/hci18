@@ -88,8 +88,6 @@ CAUTION: The file upload will be lost if you navigate away from the browser wind
 +
 An on-screen message is displayed after the file is successfully uploaded and validated. Validation might take several minutes. If you navigate away from the browser window at this stage, the file upload is preserved.
 
-
-. Select the drop-down arrow next to the cluster you are upgrading.
 . Select *Firmware Only*, and select from the upgrade versions available.
 . Select *Begin Upgrade*.
 +
@@ -112,7 +110,7 @@ Here are the different states that the *Upgrade Status* column in the UI shows b
 |The cluster was upgraded to the latest Element version available or the firmware was upgraded to the latest version.
 
 |Unable to Detect
-|NetApp Hybrid Cloud Control shows this status instead of *Versions Available* when it does not have external connectivity to reach the online software repository. This status is also displayed when the storage service API returns an upgrade status that is not in the enumerated list of possible upgrade statuses.
+|This status is displayed when the storage service API returns an upgrade status that is not in the enumerated list of possible upgrade statuses.
 
 |Versions Available
 |Newer versions of Element and/or storage firmware are available for upgrade.
