@@ -21,7 +21,7 @@ include::https://raw.githubusercontent.com/NetAppDocs/common/main/_include/open-
 
 * link:../media/compute_firmware_bundle_2.146_notices.pdf[Notice for Compute Firmware Bundle 2.146^]
 * link:../media/storage_firmware_bundle_2.146_notices.pdf[Notice for Storage Firmware Bundle 2.146^]
-* link:../media/storage_firmware_bundle_2.99.2_notices.pdf[Notice for Storage Firmware Bundle 2.99.2^]
+* link:../media/storage_firmware_bundle_2.99_notices.pdf[Notice for Storage Firmware Bundle 2.99.2^]
 * link:../media/compute_firmware_bundle_2.76_notices.pdf[Notice for Compute Firmware Bundle 2.76^]
 * link:../media/storage_firmware_bundle_2.76_notices.pdf[Notice for Storage Firmware Bundle 2.76^]
 * link:../media/compute_firmware_bundle_2.27_notices.pdf[Notice for Compute Firmware Bundle 2.27^]
