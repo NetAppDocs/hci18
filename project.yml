@@ -5,6 +5,15 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
+versions:
+   # Current repo stanza comes first
+    - version-number: "1.8"
+      url: /hci18
+   # Additional releases newest to oldest
+    - version-number: "1.10"
+      url: /hci
+    - version-number: "1.9"
+      url: /hci19
 sidebar:
   entries:
     - title: NetApp HCI 1.8 Documentation
