@@ -1,0 +1,6 @@
+---
+permalink: docs/task_nde_import_installation_profile.html
+redirect: hci18/docs/task_nde_start_deployment.html
+---
+
+// 2023 OCT 11, DOC-4712
