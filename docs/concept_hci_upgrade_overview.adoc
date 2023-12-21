@@ -11,7 +11,6 @@ keywords: netapp, hci, on premise, cluster, upgrade, vcp
 :icons: font
 :linkattrs:
 :imagesdir: ../media/
-:keywords: hci, cloud, onprem, documentation, help
 
 [.lead]
 You can keep your NetApp HCI system up-to-date after deployment by sequentially upgrading all NetApp HCI software components.
