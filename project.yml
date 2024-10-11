@@ -6,6 +6,7 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
+    harmony_enabled: true
   versions:
      # Current repo stanza comes first
     - version-number: "1.8"
