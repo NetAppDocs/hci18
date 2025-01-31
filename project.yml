@@ -370,7 +370,7 @@ sidebar:
        - title: Replace storage node in a two-node cluster
          url: /docs/task_hci_2noderepl.html
     - title: Legal notices
-      url: /docs/reference_notices_hci.html
+      url: /legal-notices.html      
 
 homepage:
   tiles:
