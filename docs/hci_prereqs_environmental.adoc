@@ -21,5 +21,4 @@ NOTE: The H410C compute node operates only on high-line voltage (200-240 VAC). Y
 
 [discrete]
 == Find more information
-*	https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources page^]
 *	https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
