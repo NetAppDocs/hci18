@@ -68,6 +68,5 @@ NOTE: If you expanded a two-node storage cluster to four nodes or more, the pair
 [discrete]
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
 
 // 2023 JULY 20, DOC-4699

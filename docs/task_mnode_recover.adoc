@@ -193,4 +193,3 @@ IMPORTANT: If you had previously disabled SSH functionality on the management no
 == Find more Information
 * link:concept_hci_volumes.html#persistent-volumes[Persistent volumes]
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
