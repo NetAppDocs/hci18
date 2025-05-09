@@ -151,4 +151,3 @@ If you encounter errors when you are either enabling or disabling maintenance mo
 [discrete]
 == Find more information
 * link:task_mnode_manage_storage_cluster_assets.html[Create and manage storage cluster assets]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]

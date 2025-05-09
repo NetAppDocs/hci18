@@ -58,4 +58,3 @@ NOTE: To manage a compute node in NetApp Hybrid Cloud Control, you must https://
 [discrete]
 == Find more information
 * https://docs.netapp.com/us-en/vcp/index.html[NetApp Element Plug-in for vCenter Server^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/[NetApp HCI Resources Page^]
