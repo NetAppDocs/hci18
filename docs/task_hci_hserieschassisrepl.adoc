@@ -170,7 +170,7 @@ NOTE: See the VMware documentation for the migration steps.
 You are now ready to physically removing the node from the chassis.
 
 === Shut down a storage node
-See the steps <<move a storage node,here>>.
+See the steps <<first-step,here>>.
 
 === Remove the node
 You should ensure that you remove the node carefully from the chassis and label all the components. The steps to physically remove the node are the same for both storage and compute nodes. For a storage node, remove the drive before you remove the node.
