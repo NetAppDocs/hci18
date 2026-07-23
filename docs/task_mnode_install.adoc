@@ -121,7 +121,7 @@ sudo service ntpd stop
 
 .. Edit the NTP configuration file `/etc/ntp.conf`:
 ...	Comment out the default servers (`server 0.gentoo.pool.ntp.org`) by adding a `#` in front of each.
-...	Add a new line for each default time server you want to add. The default time servers must be the same NTP servers used on the storage cluster that you will use in a link:task_mnode_install.html#set-up-the-management-node[later step].
+...	Add a new line for each default time server you want to add. The default time servers must be the same NTP servers used on the storage cluster that you will use in a link:task_mnode_install.html#step-4-set-up-the-management-node[later step].
 +
 ----
 vi /etc/ntp.conf
@@ -165,7 +165,7 @@ vmware-toolbox-cmd timesync status
 +
 NOTE: Do not enable this option if you make future changes to the VM.
 
-NOTE: Do not edit the NTP after you complete the time sync configuration because it affects the NTP when you run the link:task_mnode_install.html#set-up-the-management-node[setup command] on the management node.
+NOTE: Do not edit the NTP after you complete the time sync configuration because it affects the NTP when you run the link:task_mnode_install.html#step-4-set-up-the-management-node[setup command] on the management node.
 
 == Set up the management node
 
