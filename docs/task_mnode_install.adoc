@@ -184,7 +184,7 @@ NOTE: The abbreviated form of the command name is in parentheses ( ) and can be 
 
 +
 * *--mnode_admin_user (-mu) [username]*: The username for the management node administrator account. This is likely to be the username for the user account you used to log into the management node.
-* *--storage_mvip (-sm) [MVIP address]*: The management virtual IP address (MVIP) of the storage cluster running Element software. Configure the management node with the same storage cluster that you used during link:task_mnode_install.html#configure-time-sync[NTP servers configuration].
+* *--storage_mvip (-sm) [MVIP address]*: The management virtual IP address (MVIP) of the storage cluster running Element software. Configure the management node with the same storage cluster that you used during link:task_mnode_install.html#step-3-configure-time-sync[NTP servers configuration].
 * *--storage_username (-su) [username]*: The storage cluster administrator username for the cluster specified by the `--storage_mvip` parameter.
 * *--telemetry_active (-t) [true]*: Retain the value true that enables data collection for analytics by Active IQ.
 .. (Optional): Add Active IQ endpoint parameters to the command:
