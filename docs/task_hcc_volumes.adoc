@@ -66,7 +66,7 @@ See information about https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-u
 
 .. *QoS Policies*: You can see the QoS policy applied to the volume. A QoS policy applies standardized settings for minimum IOPS, maximum IOPS, and burst IOPS to multiple volumes.
 +
-See information about link:concept_hci_performance#qos-performance.html[performance and QoS policies].
+See information about link:concept_hci_performance.html#qos-policies[performance and QoS policies].
 +
 See information about https://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-C90C0C1C-AE38-46FA-A854-BB425B55BEF4.html[Quality of Service policies^] in the _NetApp Element User Guide_.
 
