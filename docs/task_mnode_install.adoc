@@ -55,7 +55,7 @@ Prior to following this procedure, you should have an understanding of  link:con
 . <<Configure controller assets>>
 . <<Configure compute node assets,(NetApp HCI only) Configure compute node assets>>
 
-== Download ISO or OVA and deploy the VM
+== Step 1: Download ISO or OVA and deploy the VM
 
 . Download the OVA or ISO for your installation from the https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab[NetApp HCI^] page on the NetApp Support Site:
 
@@ -85,7 +85,7 @@ NOTE: Installing a management node using the image might result in 30-second del
 
 . Power on the VM for the management node after the installation completes.
 
-== Create the management node admin and configure the network
+== Step 2: Create the management node admin and configure the network
 
 . Using the terminal user interface (TUI), create a management node admin user.
 +
@@ -105,7 +105,7 @@ NOTE: A DHCP that assigns IPs with an MTU less than 1500 bytes can prevent you c
 +
 NOTE: If you need an additional NIC to isolate storage traffic, see instructions on configuring another NIC: link:task_mnode_install_add_storage_NIC.html[Configure a storage Network Interface Controller (NIC)].
 
-== Configure time sync
+== Step 3: Configure time sync
 
 . Ensure time is synced between the management node and the storage cluster using NTP:
 
@@ -167,7 +167,7 @@ NOTE: Do not enable this option if you make future changes to the VM.
 
 NOTE: Do not edit the NTP after you complete the time sync configuration because it affects the NTP when you run the link:task_mnode_install.html#step-4-set-up-the-management-node[setup command] on the management node.
 
-== Set up the management node
+== Step 4: Set up the management node
 
 . Configure and run the management node setup command:
 +
